@@ -1,13 +1,16 @@
 # Simplistika by Webments and Mercode
-Simplistika is Mercode's design language. 
+Simplistika is Mercode's design language.
 
 ## Installation
+
 ### NPM
+
 ```
 
 ```
 
 ### YARN
+
 ```
 
 ```
