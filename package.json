@@ -1,0 +1,19 @@
+{
+  "name": "webments-simplistika",
+  "version": "1.0.0",
+  "description": "Webments Simplistika design library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webments/simplistika.css.git"
+  },
+  "author": "The Webments Authors",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/Webments/simplistika.css/issues"
+  },
+  "homepage": "https://github.com/Webments/simplistika.css#readme"
+}
