@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">by Webments and Mercode</h3>
-<p align="center">Simplistika is [Mercode's](https://github.com/mercode-org) design language.</p>
+<p align="center">Simplistika is <a href="https://github.com/mercode-org">Mercode's</a> design language.</p>
 
 ## Installation
 
