@@ -31,6 +31,6 @@ found in the LICENSE file.
   margin-top: 50px;
 }
 
-button {
+button, select {
   margin: 10px;
 }
