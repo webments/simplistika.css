@@ -7,20 +7,24 @@ found in the LICENSE file.
 /*color*/
 
 :root {
-  --orange: #FF4D0D;
+  --orange: #ff4d0d;
   --blue: #094f91;
-  --light-blue: #29B6F6;
+  --light-blue: #29b6f6;
   --red: #b71c1c;
-  --pink: #E91E63;
-  --purple: #7B1FA2; 
-  --yellow: #FFEB3B;
-  --green: #8BC34A;
-  --gradient: linear-gradient(45deg, rgba(255, 29, 17, 0.9), rgba(255, 162, 6, 0.9));
-  --dark1: #212121; 
-  --dark2: #2E2E2E;
+  --pink: #e91e63;
+  --purple: #7b1fa2;
+  --yellow: #ffeb3b;
+  --green: #8bc34a;
+  --gradient: linear-gradient(
+    45deg,
+    rgba(255, 29, 17, 0.9),
+    rgba(255, 162, 6, 0.9)
+  );
+  --dark1: #212121;
+  --dark2: #2e2e2e;
   --dark3: #484848;
   --dark4: #666666;
-  --light1: #e9e9e9; 
+  --light1: #e9e9e9;
   --light2: #dbdbdb;
   --light3: #b4b4b4;
   --light4: #a1a1a1;
@@ -30,7 +34,10 @@ found in the LICENSE file.
   color: var(--orange);
 }
 
-.dark1, .dark2, .dark3, .dark4 {
+.dark1,
+.dark2,
+.dark3,
+.dark4 {
   color: white;
 }
 
@@ -50,7 +57,10 @@ found in the LICENSE file.
   background-color: var(--dark4);
 }
 
-.light1, .light2, .light3, .light4 {
+.light1,
+.light2,
+.light3,
+.light4 {
   color: var(--dark1);
 }
 
@@ -76,38 +86,55 @@ found in the LICENSE file.
 
 /*headings*/
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 2.5rem;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 2rem;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 1.75rem;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 1.5rem;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 1.25rem;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 1rem;
 }
 
-p, .p {
+p,
+.p {
   font-size: 1rem;
 }
 
@@ -117,169 +144,249 @@ p, .p {
 }
 
 .display-1 {
-  font-size: 6rem;
+  font-size: 6rem !important;
   font-weight: 300;
   line-height: 1.2;
 }
 
 .display-2 {
-  font-size: 5.5rem;
+  font-size: 5.5rem !important;
   font-weight: 300;
   line-height: 1.2;
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 4.5rem !important;
   font-weight: 300;
   line-height: 1.2;
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
   font-weight: 300;
   line-height: 1.2;
 }
 
 /*misc*/
 
-pre, .pre {
-  padding: .5rem;
+pre,
+.pre {
+  padding: 0.5rem;
   line-height: 1.25;
   overflow-x: scroll;
+  border-radius: 4px;
 }
 
-blockquote, .blockquote{
+code, .code{
+  border-radius: 2px;
+}
+
+blockquote,
+.blockquote {
   border-left: 3px solid #ff4d0d;
   padding-left: 1rem;
 }
 
+/*borders*/
+
+.br-orange {
+  border-color: var(--orange);
+}
+
+.br-blue {
+  border-color: var(--blue);
+}
+
+.br-light-blue {
+  border-color: var(--light-blue);
+}
+
+.br-red {
+  border-color: var(--red);
+}
+
+.br-pink {
+  border-color: var(--pink);
+}
+
+.br-purple {
+  border-color: var(--purple);
+}
+
+.br-yellow {
+  border-color: var(--yellow);
+}
+
+.br-green {
+  border-color: var(--green);
+}
+
+.br-orange:hover,
+.br-orange:active,
+.br-orange:focus {
+  background-color: var(--orange);
+}
+
+.br-blue:hover,
+.br-blue:active,
+.br-blue:focus {
+  background-color: var(--blue);
+}
+
+.br-light-blue:hover,
+.br-light-blue:active,
+.br-light-blue:focus {
+  background-color: var(--light-blue);
+}
+
+.br-red:hover,
+.br-red:active,
+.br-red:focus {
+  background-color: var(--red);
+}
+
+.br-pink:hover,
+.br-pink:active,
+.br-pink:focus {
+  background-color: var(--pink);
+}
+
+.br-purple:hover,
+.br-purple:active,
+.br-purple:focus {
+  background-color: var(--purple);
+}
+
+.br-yellow:hover,
+.br-yellow:active,
+.br-yellow:focus {
+  background-color: var(--yellow);
+}
+
+.br-green:hover,
+.br-green:active,
+.br-green:focus {
+  background-color: var(--green);
+}
+
 /*buttons*/
 
-button, .button, a.bt{
-    border-style: solid;
-    color: white;
-    border-width: 2px;
-    outline: 0;
-    padding: 0.55rem 1rem;
-    background: none;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    font-weight: bold;
-    text-decoration: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 1rem;
-    width: 170px;
+button,
+.button,
+a.bt {
+  border-style: solid;
+  color: white;
+  border-width: 2px;
+  outline: 0;
+  padding: 0.55rem 1rem;
+  background: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+  width: 170px;
+  transition: 0.1s;
 }
 
-button:hover, .button:hover, .bt:hover {
-    transition: 0.2s;
+button:hover,
+.button:hover,
+.bt:hover {
+  transition: 0.2s;
 }
 
-.bt-orange {
-    border-color: var(--orange);
-}
-
-.bt-blue {
-    border-color: var(--blue);
-}
-
-.bt-light-blue {
-    border-color: var(--light-blue);
-}
-
-.bt-red {
-    border-color: var(--red);
-}
-
-.bt-pink {
-    border-color: var(--pink);
-}
-
-.bt-purple {
-    border-color: var(--purple);
-}
-
-.bt-yellow {
-    border-color: var(--yellow);
-}
-
-.bt-green {
-    border-color: var(--green);
-}
-
-.bt-orange:hover, .bt-orange:active {
-    background-color: var(--orange);
-}
-
-.bt-blue:hover, .bt-blue:active {
-    background-color: var(--blue);
-}
-
-.bt-light-blue:hover, .bt-light-blue:active {
-    background-color: var(--light-blue);
-}
-
-.bt-red:hover, .bt-red:active {
-    background-color: var(--red);
-}
-
-.bt-pink:hover, .bt-pink:active {
-    background-color: var(--pink);
-}
-
-.bt-purple:hover, .bt-purple:active {
-    background-color: var(--purple);
-}
-
-.bt-yellow:hover, .bt-yellow:active {
-    background-color: var(--yellow);
-}
-
-.bt-green:hover, .bt-green:active {
-    background-color: var(--green);
-}
-
-button:disabled, .button:disabled, .bt:disabled ,button[disabled] {
-    border-color: var(--dark3);
-    color: var(--dark3);
+.mini-bt {
+  padding: 0.25rem 0.25rem;
+  width: auto;
 }
 
 /*input text*/
 
-input[type=text], .inp-text {
-    padding: 12px 20px;
-    margin: 8px 0;
-    border-radius: 6px;
-    border: 2px solid var(--dark4);
-    background: none;
-    box-sizing: border-box;
-    color: white;
-    font-size: 1rem;
+input {
+  outline-style:none;
+}
+input[type="text"],
+.inp-text {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 2px solid var(--dark3);
+  background: none;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1rem;
+  transition: 0.1s;
 }
 
-input[type=text]:hover:enabled, .inp-text:hover:enabled, input[type=text]:focus:enabled, .inp-text:focus:enabled {
-    background: var(--dark4);
-    transition: 0.2s;
-}
-
-input[type=text]:disabled, .inp-text:disabled, input[type=text][disabled] {
-    border-color: var(--dark3);
+input[type="text"]:hover:enabled,
+.inp-text:hover:enabled,
+input[type="text"]:focus:enabled,
+.inp-text:focus:enabled {
+  background: var(--dark3);
+  transition: 0.2s;
 }
 
 /*input checkbox*/
 
-input[type=checkbox], .inp-chb {
-    border-radius: 5px;
-    width: 45px;
-    height: 15px;
-    background: var(--dark4);
-    margin: 0;
-    padding: 0;
+input[type="checkbox"],
+.inp-chb {
+  border-radius: 5px;
+  width: 45px;
+  height: 15px;
+  background: var(--dark4);
+  margin: 0;
+  padding: 0;
 }
 
+/*dropdown*/
 
+select, .slc {
+  border-style: solid;
+  width: 140px;
+  height: 35px;
+  padding: 5px 35px 5px 5px;
+  font-size: 1rem;
+  color: white;
+  background: none;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: 0.1s;
+}
 
+select:hover, .slc:hover {
+  transition: 0.2s;
+}
 
+.slc-dark option {
+  background: var(--dark3);
+}
+
+.slc-dark option:hover, .slc-dark option:active, .slc-dark option:focus {
+  background: var(--dark2);
+}
+
+.slc-light option {
+  background: var(--light3);
+}
+
+.slc-light option:hover {
+  background: var(--light2);
+}
+
+/*disabled*/
+
+button:disabled,
+.button:disabled,
+.bt:disabled,
+button[disabled], input[type="text"]:disabled,
+.inp-text:disabled,
+input[type="text"][disabled], select[disabled], .slc:disabled {
+  border-color: var(--dark2);
+  color: var(--dark2);
+}
 

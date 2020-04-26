@@ -1,10 +1,10 @@
-<!DOCTYPE html>
 <!-- 
 Copyright 2020 The Webments Maintainers and Contributors.
 Use of this source code is governed by a LGPL-2.1-style license that can be
 found in the LICENSE file. 
 -->
 
+<!DOCTYPE html>
 <html lang="en" class="dark1">
 
 <head>
@@ -18,26 +18,49 @@ found in the LICENSE file.
 <body>
   <div class="container">
     <h3 class="title">Webments</h3>
-    <h1></h1>
-
+    <h1>simplistika.css</h1>
+    <button href="https://github.com/Webments/simplistika.css" class="mini-bt br-orange">Star</button> 
+    <button href="https://github.com/Webments/simplistika.css/fork" class="mini-bt br-orange">Fork</button>
+    <button href="https://github.com/Webments/simplistika.css/subscription" class="mini-bt br-orange">Watch</button>
     <div class="elementsdiv">
       <div class="elementdiv">
         <h2>Buttons</h2>
-        <button class="bt bt-orange">Button</button>
-	<button class="bt bt-blue">Button</button>
-	<button class="bt bt-light-blue">Button</button>
-	<button class="bt bt-red">Button</button>
-	<button class="bt bt-pink">Button</button>
-	<button class="bt bt-purple">Button</button>
-	<button class="bt bt-yellow">Button</button>
-        <button class="bt bt-green">Button</button>
 
-        <h3>Disabled</h3>
-        <button disabled>Button</button>
-      </div>
+	<h3>Regular</h3>
+        <button class="bt br-orange">Button</button>
+        <button class="bt br-blue">Button</button>
+        <button class="bt br-light-blue">Button</button>
+        <button class="bt br-red">Button</button>
+        <button class="bt br-pink">Button</button>
+        <button class="bt br-purple">Button</button>
+        <button class="bt br-yellow">Button</button>
+        <button class="bt br-green">Button</button>
+
+        <h4>Disabled</h4>
+        <button class="bt" disabled>Button</button>
+ 
+        <h3>Mini</h3>
+        <button class="mini-bt br-orange">Button</button>
+        <button class="mini-bt br-blue">Button</button>
+        <button class="mini-bt br-light-blue">Button</button>
+        <button class="mini-bt br-red">Button</button>
+        <button class="mini-bt br-pink">Button</button>
+        <button class="mini-bt br-purple">Button</button>
+        <button class="mini-bt br-yellow">Button</button>
+        <button class="mini-bt br-green">Button</button>
+
+	<h4>Disabled</h4>
+        <button class="mini-bt" disabled>Button</button>
+
+     </div>
 
       <div class="elementdiv">
         <h2>Text and Typography</h2>
+	
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
 
         <h1>H1</h1>
         <h2>H2</h2>
@@ -45,7 +68,10 @@ found in the LICENSE file.
         <h4>H4</h4>
         <h5>H5</h5>
         <h6>H6</h6>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum asperiores commodi maiores esse molestiae temporibus facere nam vero at veniam, minima placeat fuga, voluptates velit possimus dolor. Blanditiis, doloremque?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum asperiores commodi maiores esse
+          molestiae temporibus facere nam vero at veniam, minima placeat fuga, voluptates velit possimus dolor.
+          Blanditiis, doloremque?</p>
       </div>
 
       <div class="elementdiv">
@@ -79,15 +105,64 @@ found in the LICENSE file.
 
         <code class="dark3">code</code>
 
-	<pre class="dark3"><code>code</code></pre>
+        <pre class="dark3"><code>code</code></pre>
 
-       
+
       </div>
 
       <div class="elementdiv">
         <h2>Dropdowns</h2>
 
-        <select id="dropdown">
+        <select id="dropdown" class="slc slc-dark br-orange">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-blue">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-light-blue">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-red">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-pink">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-purple">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-yellow">
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+          <option value="4">Option 4</option>
+        </select>
+
+	<select id="dropdown" class="slc slc-dark br-green">
           <option value="1">Option 1</option>
           <option value="2">Option 2</option>
           <option value="3">Option 3</option>
@@ -96,7 +171,7 @@ found in the LICENSE file.
 
         <h3>Disabled</h3>
 
-       <select disabled id="dropdowndisabled">
+        <select disabled id="dropdowndisabled">
           <option value="1">Option 1</option>
           <option value="2">Option 2</option>
           <option value="3">Option 3</option>
