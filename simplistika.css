@@ -300,15 +300,18 @@ button:hover,
 }
 
 .mini-bt {
-  padding: 0.25rem 0.25rem;
+  padding: 0.25rem 0.55rem;
   width: auto;
+}
+
+/*input*/
+
+input, select {
+  outline-style:none;
 }
 
 /*input text*/
 
-input {
-  outline-style: none;
-}
 input[type="text"],
 .inp-text {
   padding: 12px 20px;
