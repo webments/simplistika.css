@@ -9,7 +9,8 @@ found in the LICENSE file.
   margin-top: 70px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid black;
+  border: 4px solid #484848;
+  border-radius: 20px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
@@ -52,12 +53,16 @@ select {
 }
 
 .belowimg {
-  opacity: 50%;
-  transition: 0.2s;
+  display: inline-block;   
+  padding: 50px;
   cursor: pointer;
 }
+.belowimg img{
+  opacity: 50%;
+  transition: 0.2s;
+}
 
-.belowimg:hover {
+.belowimg img:hover {
   opacity: 100%;
   transition: 0.2s;
 }
