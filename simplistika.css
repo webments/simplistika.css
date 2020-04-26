@@ -306,8 +306,9 @@ button:hover,
 
 /*input*/
 
-input, select {
-  outline-style:none;
+input,
+select {
+  outline-style: none;
 }
 
 /*input text*/
