@@ -4,6 +4,10 @@ Use of this source code is governed by a LGPL-2.1-style license that can be
 found in the LICENSE file.
 */
 
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 .container {
   max-width: 960px;
   margin-top: 70px;
@@ -50,6 +54,10 @@ select {
 }
 .buttondiv1 {
   margin-bottom: 20px;
+}
+
+.fl, .nv {
+  margin: 20px 0;
 }
 
 .belowimg {

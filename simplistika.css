@@ -13,7 +13,7 @@ found in the LICENSE file.
   --red: #b71c1c;
   --pink: #e91e63;
   --purple: #7b1fa2;
-  --yellow: #ffeb3b;
+  --yellow: #FFA206;
   --green: #8bc34a;
   --gradient: linear-gradient(
     45deg,
@@ -183,9 +183,19 @@ code,
 }
 
 blockquote,
-.blockquote {
-  border-left: 3px solid #ff4d0d;
+.blockquote, .quo {
+  border-left: 3px solid;
   padding-left: 1rem;
+  background: none !important;
+}
+
+.quo p {
+  font-size: 1.2rem;   
+}
+
+.quo-fo {
+  text-align: right;
+  color: var(--dark4);
 }
 
 /*borders*/
@@ -275,9 +285,8 @@ blockquote,
 button,
 .button,
 a.bt {
-  border-style: solid;
   color: white;
-  border-width: 2px;
+  border: 2px solid;
   outline: 0;
   padding: 0.55rem 1rem;
   background: none;
@@ -302,6 +311,64 @@ button:hover,
 .mini-bt {
   padding: 0.25rem 0.55rem;
   width: auto;
+}
+
+
+/*flashes*/
+
+.fl {
+  width: 100%;
+  height: auto;
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 0 5px;
+  opacity: 0.7;
+  transition: 0.1s;
+}
+
+.fl-orange {
+  border-color: var(--orange);
+  color: var(--orange) !important;
+}
+
+.fl-blue {
+  border-color: var(--blue);
+  color: var(--blue) !important;
+}
+
+.fl-light-blue {
+  border-color: var(--light-blue);
+  color: var(--light-blue) !important;
+}
+
+.fl-red {
+  border-color: var(--red);
+  color: var(--red) !important;
+}
+
+.fl-pink {
+  border-color: var(--pink);
+  color: var(--pink) !important;
+}
+
+.fl-purple {
+  border-color: var(--purple);
+  color: var(--purple) !important;
+}
+
+.fl-yellow {
+  border-color: var(--yellow);
+  color: var(--yellow) !important;
+}
+
+.fl-green {
+  border-color: var(--green);
+  color: var(--green) !important;
+}
+
+.fl:hover {
+  opacity: 1;
+  transition: 0.2s;
 }
 
 /*input*/
@@ -400,3 +467,129 @@ select[disabled],
   border-color: var(--dark2);
   color: var(--dark2);
 }
+
+/*navbar*/
+
+nav, .nv {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.nv ul {
+  position: relative;
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.nv li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nv li a {
+  display: block;
+  padding: 16px 12px;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-align: center;
+  background: none;
+  transition: 0.1s;
+  width: 100%;
+  height: 100%;
+}
+
+.nv li a:hover {
+  background: white;
+  transition: 0.2s;   
+}
+
+.nv-lg {
+  margin-left: 10px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 2.1rem;
+  color: white;
+  float: left;
+}
+
+.nv .inp-text {
+  right: 0;
+  border-color: white;
+  border-radius: 12px;
+  width: auto;
+  max-width: 60%;
+  min-width: 10%;
+  margin-left: auto;
+  order: 2;
+}
+
+.nv .inp-text:hover:enabled, .nv .inp-text:focus:enabled {
+  background: white;
+}
+
+@media (max-width: 1075px) {
+    nav, .nv {
+     padding: 0 20px;
+    }
+}
+.nv-gradient {
+  background: var(--gradient);
+}
+.nv-orange {
+  background: var(--orange);
+}
+.nv-blue {
+  background: var(--blue);
+}
+.nv-light-blue {
+  background: var(--light-blue);
+}
+.nv-red {
+  background: var(--red);
+}
+.nv-pink {
+  background: var(--pink);
+}
+.nv-purple {
+  background: var(--purple);
+}
+.nv-yellow {
+  background: var(--yellow);
+}
+.nv-green {
+  background: var(--green);
+}
+
+.nv-orange ul li a:hover, .nv-gradient ul li a:hover, .nv-orange .inp-text:hover:enabled, .nv-orange .inp-text:focus:enabled, .nv-gradient .inp-text:hover:enabled, .nv-gradient .inp-text:focus:enabled {
+  color: var(--orange) !important;
+}
+.nv-blue ul li a:hover,  .nv-blue .inp-text:hover:enabled, .nv-blue .inp-text:focus:enabled {
+  color: var(--blue) !important;
+}
+.nv-light-blue ul li a:hover, .nv-light-blue .inp-text:hover:enabled, .nv-light-blue .inp-text:focus:enabled {
+  color: var(--light-blue) !important;
+}
+.nv-red ul li a:hover, .nv-red .inp-text:hover:enabled, .nv-red .inp-text:focus:enabled {
+  color: var(--red) !important;
+}
+.nv-pink ul li a:hover, .nv-pink .inp-text:hover:enabled, .nv-pink .inp-text:focus:enabled {
+  color: var(--pink) !important;
+}
+.nv-purple ul li a:hover, .nv-purple .inp-text:hover:enabled, .nv-purple .inp-text:focus:enabled {
+  color: var(--purple) !important;
+}
+.nv-yellow ul li a:hover, .nv-yellow .inp-text:hover:enabled, .nv-yellow .inp-text:focus:enabled {
+  color: var(--yellow) !important;
+}
+.nv-green ul li a:hover, .nv-green .inp-text:hover:enabled, .nv-green .inp-text:focus:enabled {
+  color: var(--green) !important;
+}
+
