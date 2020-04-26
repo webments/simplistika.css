@@ -54,13 +54,17 @@ select {
 
 .belowimg {
   display: inline-block;   
-  padding: 50px;
+  padding: 40px;
+  padding-top: 35px;
+  padding-left:40px;
+  padding-bottom: 40px;
+  padding-right:35px;
   cursor: pointer;
 }
 .belowimg img{
   opacity: 50%;
   transition: 0.2s;
-  width: 60px;
+  width: 40px;
   border-radius: 8px;
   height: auto;
 }
