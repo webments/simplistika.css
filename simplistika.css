@@ -305,6 +305,9 @@ button:hover,
 
 /*input text*/
 
+input {
+  outline-style:none;
+}
 input[type="text"],
 .inp-text {
   padding: 12px 20px;
