@@ -15,11 +15,9 @@ found in the LICENSE file.
   --purple: #7b1fa2;
   --yellow: #FFA206;
   --green: #8bc34a;
-  --gradient: linear-gradient(
-    45deg,
-    rgba(255, 29, 17, 0.9),
-    rgba(255, 162, 6, 0.9)
-  );
+  --gradient: linear-gradient(45deg,
+      rgba(255, 29, 17, 0.9),
+      rgba(255, 162, 6, 0.9));
   --dark1: #212121;
   --dark2: #2e2e2e;
   --dark3: #484848;
@@ -183,14 +181,15 @@ code,
 }
 
 blockquote,
-.blockquote, .quo {
+.blockquote,
+.quo {
   border-left: 3px solid;
   padding-left: 1rem;
   background: none !important;
 }
 
 .quo p {
-  font-size: 1.2rem;   
+  font-size: 1.2rem;
 }
 
 .quo-fo {
@@ -232,51 +231,51 @@ blockquote,
   border-color: var(--green);
 }
 
-.br-orange:hover,
-.br-orange:active,
-.br-orange:focus {
+.br-orange:hover:enabled,
+.br-orange:active:enabled,
+.br-orange:focus:enabled {
   background-color: var(--orange);
 }
 
-.br-blue:hover,
-.br-blue:active,
-.br-blue:focus {
+.br-blue:hover:enabled,
+.br-blue:active:enabled,
+.br-blue:focus:enabled {
   background-color: var(--blue);
 }
 
-.br-light-blue:hover,
-.br-light-blue:active,
-.br-light-blue:focus {
+.br-light-blue:hover:enabled,
+.br-light-blue:active:enabled,
+.br-light-blue:focus:enabled {
   background-color: var(--light-blue);
 }
 
-.br-red:hover,
-.br-red:active,
-.br-red:focus {
+.br-red:hover:enabled,
+.br-red:active:enabled,
+.br-red:focus:enabled {
   background-color: var(--red);
 }
 
-.br-pink:hover,
-.br-pink:active,
-.br-pink:focus {
+.br-pink:hover:enabled,
+.br-pink:active:enabled,
+.br-pink:focus:enabled {
   background-color: var(--pink);
 }
 
-.br-purple:hover,
-.br-purple:active,
-.br-purple:focus {
+.br-purple:hover:enabled,
+.br-purple:active:enabled,
+.br-purple:focus:enabled {
   background-color: var(--purple);
 }
 
-.br-yellow:hover,
-.br-yellow:active,
-.br-yellow:focus {
+.br-yellow:hover:enabled,
+.br-yellow:active:enabled,
+.br-yellow:focus:enabled {
   background-color: var(--yellow);
 }
 
-.br-green:hover,
-.br-green:active,
-.br-green:focus {
+.br-green:hover:enabled,
+.br-green:active:enabled,
+.br-green:focus:enabled {
   background-color: var(--green);
 }
 
@@ -302,9 +301,9 @@ a.bt {
   transition: 0.1s;
 }
 
-button:hover,
-.button:hover,
-.bt:hover {
+button:hover:enabled,
+.button:hover:enabled,
+.bt:hover:enabled {
   transition: 0.2s;
 }
 
@@ -324,6 +323,7 @@ button:hover,
   padding: 0 5px;
   opacity: 0.7;
   transition: 0.1s;
+  padding-left: 15px;
 }
 
 .fl-orange {
@@ -429,6 +429,7 @@ select,
   -moz-appearance: none;
   appearance: none;
   transition: 0.1s;
+  padding-left: 10px;
 }
 
 select:hover,
@@ -471,7 +472,8 @@ select[disabled],
 
 /*navbar*/
 
-nav, .nv {
+nav,
+.nv {
   width: 100%;
   height: auto;
   display: block;
@@ -509,7 +511,7 @@ nav, .nv {
 
 .nv li a:hover {
   background: white;
-  transition: 0.2s;   
+  transition: 0.2s;
 }
 
 .nv-lg {
@@ -526,71 +528,114 @@ nav, .nv {
   border-color: white;
   border-radius: 12px;
   width: auto;
-  max-width: 60%;
+  max-width: 220px;
   min-width: 10%;
   margin-left: auto;
   order: 2;
+  transition: width .2s ease-in-out;
+  -webkit-transition: width .2s ease-in-out;
 }
 
-.nv .inp-text:hover:enabled, .nv .inp-text:focus:enabled {
+.nv .inp-text:hover:enabled,
+.nv .inp-text:focus:enabled {
+  width: auto;
+  max-width: 400px;
+  min-width: 20%;
   background: white;
 }
 
+
 @media (max-width: 1075px) {
-    nav, .nv {
-     padding: 0 20px;
-    }
+
+  nav,
+  .nv {
+    padding: 0 20px;
+  }
 }
+
 .nv-gradient {
   background: var(--gradient);
 }
+
 .nv-orange {
   background: var(--orange);
 }
+
 .nv-blue {
   background: var(--blue);
 }
+
 .nv-light-blue {
   background: var(--light-blue);
 }
+
 .nv-red {
   background: var(--red);
 }
+
 .nv-pink {
   background: var(--pink);
 }
+
 .nv-purple {
   background: var(--purple);
 }
+
 .nv-yellow {
   background: var(--yellow);
 }
+
 .nv-green {
   background: var(--green);
 }
 
-.nv-orange ul li a:hover, .nv-gradient ul li a:hover, .nv-orange .inp-text:hover:enabled, .nv-orange .inp-text:focus:enabled, .nv-gradient .inp-text:hover:enabled, .nv-gradient .inp-text:focus:enabled {
+.nv-orange ul li a:hover,
+.nv-gradient ul li a:hover,
+.nv-orange .inp-text:hover:enabled,
+.nv-orange .inp-text:focus:enabled,
+.nv-gradient .inp-text:hover:enabled,
+.nv-gradient .inp-text:focus:enabled {
   color: var(--orange) !important;
 }
-.nv-blue ul li a:hover,  .nv-blue .inp-text:hover:enabled, .nv-blue .inp-text:focus:enabled {
+
+.nv-blue ul li a:hover,
+.nv-blue .inp-text:hover:enabled,
+.nv-blue .inp-text:focus:enabled {
   color: var(--blue) !important;
 }
-.nv-light-blue ul li a:hover, .nv-light-blue .inp-text:hover:enabled, .nv-light-blue .inp-text:focus:enabled {
+
+.nv-light-blue ul li a:hover,
+.nv-light-blue .inp-text:hover:enabled,
+.nv-light-blue .inp-text:focus:enabled {
   color: var(--light-blue) !important;
 }
-.nv-red ul li a:hover, .nv-red .inp-text:hover:enabled, .nv-red .inp-text:focus:enabled {
+
+.nv-red ul li a:hover,
+.nv-red .inp-text:hover:enabled,
+.nv-red .inp-text:focus:enabled {
   color: var(--red) !important;
 }
-.nv-pink ul li a:hover, .nv-pink .inp-text:hover:enabled, .nv-pink .inp-text:focus:enabled {
+
+.nv-pink ul li a:hover,
+.nv-pink .inp-text:hover:enabled,
+.nv-pink .inp-text:focus:enabled {
   color: var(--pink) !important;
 }
-.nv-purple ul li a:hover, .nv-purple .inp-text:hover:enabled, .nv-purple .inp-text:focus:enabled {
+
+.nv-purple ul li a:hover,
+.nv-purple .inp-text:hover:enabled,
+.nv-purple .inp-text:focus:enabled {
   color: var(--purple) !important;
 }
-.nv-yellow ul li a:hover, .nv-yellow .inp-text:hover:enabled, .nv-yellow .inp-text:focus:enabled {
+
+.nv-yellow ul li a:hover,
+.nv-yellow .inp-text:hover:enabled,
+.nv-yellow .inp-text:focus:enabled {
   color: var(--yellow) !important;
 }
-.nv-green ul li a:hover, .nv-green .inp-text:hover:enabled, .nv-green .inp-text:focus:enabled {
+
+.nv-green ul li a:hover,
+.nv-green .inp-text:hover:enabled,
+.nv-green .inp-text:focus:enabled {
   color: var(--green) !important;
 }
-

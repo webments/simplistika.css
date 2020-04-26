@@ -21,7 +21,7 @@ html {
 }
 
 .title {
-  margin-bottom: -10px;
+  margin-bottom: -30px;
 }
 
 .author {
@@ -64,9 +64,9 @@ select {
   display: inline-block;
   padding: 40px;
   padding-top: 35px;
-  padding-left: 40px;
+  padding-left: 20px;
   padding-bottom: 40px;
-  padding-right: 35px;
+  padding-right: 20px;
   cursor: pointer;
 }
 .belowimg img {
