@@ -4,6 +4,7 @@
 
 <h3 align="center">by Webments and Mercode</h3>
 <p align="center">Simplistika is <a href="https://github.com/mercode-org">Mercode's</a> design language.</p>
+<p align="center">Warning: Work in Progress, do NOT use.</p>
 
 ![npm](https://img.shields.io/npm/v/webments-simplistika)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/webments-simplistika)
@@ -20,7 +21,7 @@
 ### NPM
 
 ```
-
+npm i webments-simplistika
 ```
 
 ### YARN
