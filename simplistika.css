@@ -470,6 +470,128 @@ select[disabled],
   color: var(--dark2);
 }
 
+/*checkbox*/
+
+.conatiner {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.conatiner input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+.conatiner:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+.conatiner input:checked~.checkmark {
+  background-color: var(--orange);
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.conatiner input:checked~.checkmark:after {
+  display: block;
+}
+
+.conatiner .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*radio*/
+
+.radiocontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmarkradio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.radiocontainer:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+.radiocontainer input:checked~.checkmark {
+  background-color: var(--orange);
+}
+
+.checkmarkradio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radiocontainer input:checked~.checkmarkradio:after {
+  display: block;
+}
+
+.radiocontainer .checkmarkradio:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
 /*navbar*/
 
 nav,
