@@ -177,7 +177,8 @@ pre,
   border-radius: 4px;
 }
 
-code, .code{
+code,
+.code {
   border-radius: 2px;
 }
 
@@ -306,7 +307,7 @@ button:hover,
 /*input text*/
 
 input {
-  outline-style:none;
+  outline-style: none;
 }
 input[type="text"],
 .inp-text {
@@ -343,7 +344,8 @@ input[type="checkbox"],
 
 /*dropdown*/
 
-select, .slc {
+select,
+.slc {
   border-style: solid;
   width: 140px;
   height: 35px;
@@ -358,7 +360,8 @@ select, .slc {
   transition: 0.1s;
 }
 
-select:hover, .slc:hover {
+select:hover,
+.slc:hover {
   transition: 0.2s;
 }
 
@@ -366,7 +369,9 @@ select:hover, .slc:hover {
   background: var(--dark3);
 }
 
-.slc-dark option:hover, .slc-dark option:active, .slc-dark option:focus {
+.slc-dark option:hover,
+.slc-dark option:active,
+.slc-dark option:focus {
   background: var(--dark2);
 }
 
@@ -383,10 +388,12 @@ select:hover, .slc:hover {
 button:disabled,
 .button:disabled,
 .bt:disabled,
-button[disabled], input[type="text"]:disabled,
+button[disabled],
+input[type="text"]:disabled,
 .inp-text:disabled,
-input[type="text"][disabled], select[disabled], .slc:disabled {
+input[type="text"][disabled],
+select[disabled],
+.slc:disabled {
   border-color: var(--dark2);
   color: var(--dark2);
 }
-

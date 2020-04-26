@@ -31,32 +31,33 @@ found in the LICENSE file.
   margin-top: 50px;
 }
 
-button, select {
+button,
+select {
   margin: 10px;
 }
 
 .repobuttons {
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .titleandsubtitlearea {
-  margin-top:50px;
-  margin-bottom:-30px;
+  margin-top: 50px;
+  margin-bottom: -30px;
 }
 .elementtitle {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 .buttondiv1 {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .belowimg {
   opacity: 50%;
-  transition: .2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
 .belowimg:hover {
   opacity: 100%;
-  transition: .2s;
+  transition: 0.2s;
 }

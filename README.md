@@ -1,4 +1,5 @@
 <p align="center">
+<img alt="simplistika.css icon" src="icon.png" width="130px"/>
   <h1 align="center">simplistika.css</h1>
 </p>
 
