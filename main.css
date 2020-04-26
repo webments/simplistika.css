@@ -60,6 +60,9 @@ select {
 .belowimg img{
   opacity: 50%;
   transition: 0.2s;
+  width: 60px;
+  border-radius: 8px;
+  height: auto;
 }
 
 .belowimg img:hover {
