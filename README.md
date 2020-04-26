@@ -28,7 +28,7 @@ npm i webments-simplistika
 ### YARN
 
 ```
-
+yarn add webments-simplistika
 ```
 
 ## Usage
