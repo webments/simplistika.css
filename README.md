@@ -99,10 +99,10 @@ https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-simplistika@0.2.3/dist/css/simplistika.min.css
+https://unpkg.com/webments-simplistika@[latest_version]/dist/css/simplistika.min.css
 ```
 
-> If the URL above (version-specific link) not working for you, try replacing @version_number with the latest released version (in case we forgot replacing).
+> Make sure to replace latest_version to the latest available version (without the brackets!)
 
 2. Import the CDN from your head area in your HTML file
 
