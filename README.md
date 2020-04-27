@@ -23,8 +23,8 @@
     <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
   </a>
-    <a aria-label="gitter" href="https://gitter.im/Webments/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
-     <img src="https://badges.gitter.im/Webments/community.svg" alt="">
+    <a aria-label="gitter" href="https://gitter.im/Webments/simplistika.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+     <img src="https://badges.gitter.im/Webments/simplistika.css.svg" alt="">
   </a>
 </p>
 
@@ -35,9 +35,6 @@ simplistika.css is a lightweight, responsive and modern CSS framework.
 - Elegantly designed and developed elements and components
 
 ## Table of Contents
-
-[![Join the chat at https://gitter.im/Webments/simplistika.css](https://badges.gitter.im/Webments/simplistika.css.svg)](https://gitter.im/Webments/simplistika.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 - [Getting started](#gettingstarted)
 - [Documentation and Usage](#usage)
 - [Compatibility](#compatibility)
