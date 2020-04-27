@@ -12,7 +12,7 @@
   },
   "author": "The Webments Authors",
   "license": "LGPL-2.1",
-  "style": "./simplistika.css",
+  "style": "./dist/css/simplistika.css",
   "bugs": {
     "url": "https://github.com/Webments/simplistika.css/issues"
   },

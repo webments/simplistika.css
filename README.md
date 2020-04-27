@@ -95,11 +95,11 @@ yarn add webments-simplistika
 
 #### Latest (stable channel, automatically updated)
 ```
-https://unpkg.com/webments-simplistika@latest/dist/simplistika.css
+https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-simplistika@0.2.1/dist/simplistika.css
+https://unpkg.com/webments-simplistika@0.2.1/dist/css/simplistika.css
 ```
 
 2. Import the CDN from your head area in your HTML file
