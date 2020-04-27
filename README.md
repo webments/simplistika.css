@@ -104,7 +104,9 @@ https://unpkg.com/webments-simplistika@[latest_version]/dist/css/simplistika.min
 
 > Make sure to replace latest_version to the latest available version (without the brackets!)
 
-2. Import the CDN from your head area in your HTML file
+e.g. `https://unpkg.com/webments-simplistika@0.1.0/dist/css/simplistika.min.css` (version number not updated, shown as example)
+
+1. Import the CDN from your head area in your HTML file
 
 ```html
 <!-- index.html -->
