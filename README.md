@@ -60,7 +60,7 @@ npm i webments-simplistika
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.min.css" />
   </head>
   <body></body>
 </html>
@@ -81,7 +81,7 @@ yarn add webments-simplistika
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.min.css" />
   </head>
   <body></body>
 </html>
@@ -95,11 +95,11 @@ yarn add webments-simplistika
 
 #### Latest (stable channel, automatically updated)
 ```
-https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.css
+https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-simplistika@0.2.3/dist/css/simplistika.css
+https://unpkg.com/webments-simplistika@0.2.3/dist/css/simplistika.min.css
 ```
 
 > If the URL above (version-specific link) not working for you, try replacing @version_number with the latest released version (in case we forgot replacing).
@@ -110,7 +110,7 @@ https://unpkg.com/webments-simplistika@0.2.3/dist/css/simplistika.css
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/dist/css/simplistika.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/dist/css/simplistika.min.css" />
   </head>
   <body></body>
 </html>

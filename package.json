@@ -1,6 +1,6 @@
 {
   "name": "webments-simplistika",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Webments Simplistika design library.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "author": "The Webments Authors",
   "license": "LGPL-2.1",
-  "style": "./dist/css/simplistika.css",
+  "style": "./dist/css/simplistika.min.css",
   "bugs": {
     "url": "https://github.com/Webments/simplistika.css/issues"
   },
