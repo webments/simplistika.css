@@ -1,6 +1,6 @@
 {
   "name": "webments-simplistika",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Webments Simplistika design library.",
   "main": "index.js",
   "scripts": {
