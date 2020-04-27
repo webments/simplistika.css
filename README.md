@@ -31,6 +31,12 @@ npm i webments-simplistika
 yarn add webments-simplistika
 ```
 
+### CDN
+
+```
+https://unpkg.com/webments-oneui/oneui.css
+```
+
 ## Usage
 
 After installing with your favorite method, you can start using the library using the components from the preview page, index.html (same class names are a must per CSS declaration).
