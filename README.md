@@ -15,7 +15,7 @@
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/webments/simplistika.css)](https://github.com/Webments/simplistika.css/commits/master)
 [![GitHub contributors](https://img.shields.io/github/contributors/webments/simplistika.css)](https://github.com/Webments/simplistika.css/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/webments/simplistika.css?style=social](https://github.com/Webments/simplistika.css)
-[![GitHub forks](https://img.shields.io/github/forks/webments/simplistika.css?style=social)](https://github.com/Webments/simplistika.css/fork)
+[![GitHub forks](https://img.shields.io/github/forks/webments/simplistika.css?style=social](https://github.com/Webments/simplistika.css/fork)
 
 ## Installation
 
