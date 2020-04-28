@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ardacebi",
+      "name": "Arda Çebi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17576065?v=4",
+      "profile": "https://www.ardacebi.com",
+      "contributions": [
+        "code",
+        "design",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "simplistika.css",
+  "projectOwner": "Webments",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

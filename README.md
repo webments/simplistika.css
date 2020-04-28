@@ -1,4 +1,7 @@
 <p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <img alt="simplistika.css icon" src="assets/icon.png" width="130px"/>
   <h1 align="center">simplistika.css</h1>
 </p>
@@ -155,3 +158,22 @@ This framework is maintained under the [Semantic Versioning guidelines](https://
 ## <a name="license"></a>Copyright and License
 
 Code and documentation Copyright 2020 The Webments Maintainers and Contributors, Code released under the LGPL-2.1 (GNU Lesser General Public License v2.1) License.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.ardacebi.com"><img src="https://avatars3.githubusercontent.com/u/17576065?v=4" width="100px;" alt=""/><br /><sub><b>Arda Çebi</b></sub></a><br /><a href="https://github.com/Webments/simplistika.css/commits?author=ardacebi" title="Code">💻</a> <a href="#design-ardacebi" title="Design">🎨</a> <a href="https://github.com/Webments/simplistika.css/commits?author=ardacebi" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
