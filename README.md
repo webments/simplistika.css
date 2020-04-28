@@ -23,8 +23,8 @@
     <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
   </a>
-    <a aria-label="gitter" href="https://gitter.im/Webments/simplistika.css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
-     <img src="https://badges.gitter.im/Webments/simplistika.css.svg" alt="">
+   <a aria-label="telegram" href="https://t.me/Webments">
+     <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
   </a>
 </p>
 
@@ -146,7 +146,7 @@ All Webments frameworks are open to contributions from everyone! You can [fork t
 Enjoying simplistika.css? Join our community to discuss about features, improvements and more!
 
 - [Visit GitHub organization](https://github.com/Webments)
-- [Join Gitter discuss](https://gitter.im/Webments/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+- [Join Telegram group](https://t.me/Webments)
 
 ## <a name="versioning"></a>Versioning
 
