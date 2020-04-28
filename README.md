@@ -1,7 +1,5 @@
 <p align="center">
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
   <img alt="simplistika.css icon" src="assets/icon.png" width="130px"/>
   <h1 align="center">simplistika.css</h1>
 </p>
@@ -26,6 +24,11 @@
     <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
   </a>
+   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+    <a aria-label="All Contributors" href="#contributors">
+    <img src="https://img.shields.io/badge/all_contributors-2-orange.svg" alt="">
+  </a>
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
    <a aria-label="telegram" href="https://t.me/Webments">
      <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
   </a>
@@ -145,21 +148,7 @@ simplistika.css is compatible and has been tested with recent versions of
 ## <a name="contributing"></a>Contributing
 All Webments frameworks are open to contributions from everyone! You can [fork the repository](https://github.com/Webments/simplistika.css/fork), make your changes, and submit as pull requests to help improve them. Make sure to read the [Code of Conduct](https://github.com/Webments/simplistika.css/blob/master/CODE_OF_CONDUCT.md) and the [Contributing guide](https://github.com/Webments/simplistika.css/blob/master/CONTRIBUTING.md) before submitting contributions. You can also check out the necessary [license information](https://github.com/Webments/simplistika.css/blob/master/LICENSE).
 
-## <a name="community"></a>Community
-Enjoying simplistika.css? Join our community to discuss about features, improvements and more!
-
-- [Visit GitHub organization](https://github.com/Webments)
-- [Join Telegram group](https://t.me/Webments)
-
-## <a name="versioning"></a>Versioning
-
-This framework is maintained under the [Semantic Versioning guidelines](https://semver.org/).
-
-## <a name="license"></a>Copyright and License
-
-Code and documentation Copyright 2020 The Webments Maintainers and Contributors, Code released under the LGPL-2.1 (GNU Lesser General Public License v2.1) License.
-
-## Contributors ✨
+## <a name="contributors"></a>Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -176,5 +165,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## <a name="community"></a>Community
+Enjoying simplistika.css? Join our community to discuss about features, improvements and more!
+
+- [Visit GitHub organization](https://github.com/Webments)
+- [Join Telegram group](https://t.me/Webments)
+
+## <a name="versioning"></a>Versioning
+
+This framework is maintained under the [Semantic Versioning guidelines](https://semver.org/).
+
+## <a name="license"></a>Copyright and License
+
+Code and documentation Copyright 2020 The Webments Maintainers and Contributors, Code released under the LGPL-2.1 (GNU Lesser General Public License v2.1) License.
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
