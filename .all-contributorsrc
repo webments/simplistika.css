@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "yutyo",
+      "name": "Tan A.",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40173707?v=4",
+      "profile": "http://mercode.org",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "simplistika.css",
+  "projectOwner": "Webments",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
