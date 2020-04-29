@@ -51,7 +51,7 @@ simplistika.css is a lightweight, responsive and modern CSS framework.
 - [Copyright and License](#license)
 
 ## <a name="gettingstarted"></a>Getting started
-simplistika.css is available via either npm (preferred), Yarn, or a CDN.
+simplistika.css is available via either NPM (preferred), Yarn, or a CDN.
 
 ### NPM
 
@@ -75,7 +75,7 @@ npm i webments-simplistika
 
 ### Yarn
 
-1. Obtain the package via yarn
+1. Obtain the package via Yarn
 
 ```shell
 yarn add webments-simplistika
