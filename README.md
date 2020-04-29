@@ -36,7 +36,7 @@
 
 simplistika.css is a lightweight, responsive and modern CSS framework.
 
-- Lightweight (~x gzipped), blazing fast.
+- Lightweight (~2.11kB minzipped), blazing fast.
 - Flexbox-based, responsive and mobile-friendly layout
 - Elegantly designed and developed elements and components
 
