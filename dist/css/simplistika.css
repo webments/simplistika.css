@@ -214,10 +214,6 @@ blockquote,
   border-color: var(--light-blue);
 }
 
-.br-light-blue[disabled] {
-  border-color: var(--light-blue-disabled);
-}
-
 .br-red {
   border-color: var(--red);
 }
@@ -473,7 +469,7 @@ input[type="text"][disabled],
 select[disabled],
 .slc:disabled {
   border-color: var(--dark2);
-  color: var(--dark2);
+  color: var(--light2);
 }
 
 /*checkbox*/
