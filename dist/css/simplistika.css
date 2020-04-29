@@ -8,14 +8,21 @@ found in the LICENSE file.
 
 :root {
   --orange: #ff4d0d;
-  --orange-disabled: #c43907;
+  --orange-disabled: #ff4e0d20;
   --blue: #094f91;
+  --blue-disabled: #094f9120;
   --light-blue: #29b6f6;
+  --light-blue-disabled: #29b5f620;
   --red: #b71c1c;
+  --red-disabled: #b71c1c20;
   --pink: #e91e63;
+  --pink-disabled: #e91e6320;
   --purple: #7b1fa2;
+  --purple-disabled: #7b1fa220;
   --yellow: #ffa206;
+  --yellow-disabled: #ffa20620;
   --green: #8bc34a;
+  --green-disabled: #8bc34a20;
   --gradient: linear-gradient(
     45deg,
     rgba(255, 29, 17, 0.9),
@@ -216,28 +223,70 @@ blockquote,
   border-color: var(--blue);
 }
 
+.br-blue[disabled],
+.br-blue:disabled {
+  border-color: var(--blue-disabled) !important;
+  color: var(--dark4) !important;
+}
+
 .br-light-blue {
   border-color: var(--light-blue);
+}
+
+.br-light-blue[disabled],
+.br-light-blue:disabled {
+  border-color: var(--light-blue-disabled) !important;
+  color: var(--dark4) !important;
 }
 
 .br-red {
   border-color: var(--red);
 }
 
+.br-red[disabled],
+.br-red:disabled {
+  border-color: var(--red-disabled) !important;
+  color: var(--dark4) !important;
+}
+
 .br-pink {
   border-color: var(--pink);
+}
+
+.br-pink[disabled],
+.br-pink:disabled {
+  border-color: var(--pink-disabled) !important;
+  color: var(--dark4) !important;
 }
 
 .br-purple {
   border-color: var(--purple);
 }
 
+.br-purple[disabled],
+.br-purple:disabled {
+  border-color: var(--purple-disabled) !important;
+  color: var(--dark4) !important;
+}
+
 .br-yellow {
   border-color: var(--yellow);
 }
 
+.br-yellow[disabled],
+.br-yellow:disabled {
+  border-color: var(--yellow-disabled) !important;
+  color: var(--dark4) !important;
+}
+
 .br-green {
   border-color: var(--green);
+}
+
+.br-green[disabled],
+.br-green:disabled {
+  border-color: var(--green-disabled) !important;
+  color: var(--dark4) !important;
 }
 
 .br-orange:hover:enabled,
@@ -317,7 +366,7 @@ button:hover:enabled,
 }
 
 .mini-bt {
-  padding: 0.25rem 0.55rem;
+  padding: 0.45rem 1.50rem 0.45rem 1.50rem;
   width: auto;
 }
 
