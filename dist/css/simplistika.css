@@ -10,7 +10,6 @@ found in the LICENSE file.
   --orange: #ff4d0d;
   --blue: #094f91;
   --light-blue: #29b6f6;
-  --light-blue-disabled: #bfe9fc;
   --red: #b71c1c;
   --pink: #e91e63;
   --purple: #7b1fa2;
@@ -202,8 +201,10 @@ blockquote,
 
 /*borders*/
 
-.br-orange {
-  border-color: var(--orange);
+.br-orange,
+.br-orange[disabled],
+.br-orange:disabled {
+  border-color: var(--orange) !important;
 }
 
 .br-blue {

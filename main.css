@@ -42,10 +42,6 @@ select {
   margin: 10px;
 }
 
-button[disabled] {
-  opacity: 0.7;
-}
-
 .repobuttons {
   margin-top: 20px;
 }
