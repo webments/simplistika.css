@@ -108,7 +108,7 @@ https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.min.css
 https://unpkg.com/webments-simplistika@[latest_version]/dist/css/simplistika.min.css
 ```
 
-> Make sure to replace latest_version to the latest available version (without the brackets!)
+> Make sure to replace latest_version to the latest available version [from the npm package manager](https://www.npmjs.com/package/webments-simplistika) (without the brackets!)
 
 e.g. `https://unpkg.com/webments-simplistika@0.1.0/dist/css/simplistika.min.css` (version number not updated, shown as example)
 
