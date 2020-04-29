@@ -8,6 +8,7 @@ found in the LICENSE file.
 
 :root {
   --orange: #ff4d0d;
+  --orange-disabled: #c43907;
   --blue: #094f91;
   --light-blue: #29b6f6;
   --red: #b71c1c;
@@ -201,10 +202,14 @@ blockquote,
 
 /*borders*/
 
-.br-orange,
+.br-orange {
+  border-color: var(--orange);
+}
+
 .br-orange[disabled],
 .br-orange:disabled {
-  border-color: var(--orange) !important;
+  border-color: var(--orange-disabled) !important;
+  color: var(--dark4) !important;
 }
 
 .br-blue {
