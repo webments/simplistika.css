@@ -1,0 +1,170 @@
+/* 
+Copyright 2020 The Webments Maintainers and Contributors.
+Use of this source code is governed by a LGPL-2.1-style license that can be
+found in the LICENSE file.
+*/
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+  max-width: 880px;
+  display: block;
+  margin-right: 15%;
+  margin-left: auto;
+  margin-top: 70px;
+  margin-bottom:86px;
+  box-sizing: border-box;
+  border: 4px solid #484848;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.sidebarul {
+  list-style-type: none;
+  margin-left:-30px;
+  padding-right:30px;
+}
+
+.lev1 {
+  font-size:25px !important;
+  color: #ffffff;
+}
+
+.lev1:hover {
+color: #ffffff91
+}
+
+.lev2 {
+font-size:16px !important;
+color: #808080;
+}
+
+.lev2:hover {
+  color: #80808052
+}
+
+.lastitem {
+  margin-bottom:20px;
+}
+
+.sidenav {
+  float: right;
+  margin-right: 10px;
+  margin-left: 14%;
+  max-width: 240px;
+  width: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 0px;
+  height:  calc(100% - 86px);
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  border: 4px solid #484848;
+  border-radius: 20px;
+  z-index: 1;
+  top: 0;
+  right: calc(15% + 900px);
+  background: none;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+.title {
+  margin-bottom: -30px;
+}
+
+.author {
+  margin-top: -10px;
+}
+
+.elementsdiv {
+  margin-top: 70px;
+}
+
+.elementdiv {
+  margin-top: 50px;
+}
+
+button,
+select {
+  margin: 10px;
+}
+
+.repobuttons {
+  margin-top: 20px;
+}
+
+.titleandsubtitlearea {
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+.elementtitle {
+  margin-bottom: 10px;
+}
+
+.buttondiv1 {
+  margin-bottom: 20px;
+}
+
+.fl,
+.nv {
+  margin: 20px 0;
+}
+
+.belowimg {
+  display: inline-block;
+  padding: 40px;
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.belowimg img {
+  opacity: 50%;
+  transition: 0.2s;
+  width: 40px;
+  border-radius: 8px;
+  height: auto;
+}
+
+.belowimg img:hover {
+  opacity: 100%;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 1600px) {
+    .sidenav {
+        float: left;
+        left: 0;
+        margin-left: 0;
+    }
+    .container {
+        margin-right: 10%;
+    }
+}
