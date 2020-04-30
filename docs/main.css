@@ -56,9 +56,12 @@ color: #808080;
   float: right;
   margin-right: 10px;
   margin-left: 14%;
-  max-width: 200px;
+  max-width: 240px;
   width: auto;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 0px;
   height:  calc(100% - 86px);
   min-height: 200px;
   overflow: auto;
@@ -80,6 +83,14 @@ color: #808080;
   display: block;
 }
 
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
 
 .title {
   margin-bottom: -30px;
