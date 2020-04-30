@@ -10,11 +10,13 @@ html {
 }
 
 .container {
-  max-width: 870px;
-  margin-top: 70px;
+  max-width: 880px;
+  display: block;
   margin-right: 15%;
   margin-left: auto;
+  margin-top: 70px;
   margin-bottom:86px;
+  box-sizing: border-box;
   border: 4px solid #484848;
   border-radius: 20px;
   padding-left: 40px;
@@ -51,18 +53,22 @@ color: #808080;
 }
 
 .sidenav {
+  float: right;
   margin-right: 10px;
   margin-left: 14%;
+  max-width: 200px;
   width: auto;
-  display:block;
   padding: 15px;
-  height: auto;
-  position: fixed;
-  z-index: 1;
+  height:  calc(100% - 86px);
+  min-height: 200px;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
   border: 4px solid #484848;
   border-radius: 20px;
-  top: 70px;
-  left: 10px;
+  z-index: 1;
+  top: 0;
+  right: calc(15% + 900px);
   background: none;
   overflow-x: hidden;
 }
@@ -139,4 +145,15 @@ select {
 .belowimg img:hover {
   opacity: 100%;
   transition: 0.2s;
+}
+
+@media only screen and (max-width: 1600px) {
+    .sidenav {
+        float: left;
+        left: 0;
+        margin-left: 0;
+    }
+    .container {
+        margin-right: 10%;
+    }
 }
