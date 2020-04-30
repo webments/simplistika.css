@@ -118,6 +118,11 @@ select {
   margin-top: 20px;
 }
 
+.repobuttonstop {
+  margin-top: 25px;
+  margin-bottom:-40px;
+}
+
 .titleandsubtitlearea {
   margin-top: 50px;
   margin-bottom: -30px;
