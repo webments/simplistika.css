@@ -15,14 +15,8 @@
     <a aria-label="npm bundle size" href="https://www.npmjs.com/package/webments-simplistika">
     <img src="https://img.shields.io/bundlephobia/minzip/webments-simplistika" alt="">
   </a>
-  <a aria-label="github releases" href="https://github.com/Webments/simplistika.css/releases">
-    <img src="https://img.shields.io/github/v/release/webments/simplistika.css" alt="">
-  </a>
     <a aria-label="npm downloads" href="https://www.npmjs.com/package/webments-simplistika">
     <img src="https://img.shields.io/npm/dt/webments-simplistika" alt="">
-  </a>
-    <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
   </a>
    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
     <a aria-label="All Contributors" href="#contributors">
@@ -31,6 +25,9 @@
   <!-- ALL-CONTRIBUTORS-BADGE:END -->
    <a aria-label="telegram" href="https://t.me/Webments">
      <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
+  </a>
+  <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
   </a>
 </p>
 
