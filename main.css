@@ -10,9 +10,9 @@ html {
 }
 
 .container {
-  max-width: 780px;
+  max-width: 870px;
   margin-top: 70px;
-  margin-right: auto;
+  margin-right: 20%;
   margin-left: auto;
   border: 4px solid #484848;
   border-radius: 20px;
@@ -20,6 +20,36 @@ html {
   padding-right: 40px;
   padding-bottom: 40px;
 }
+
+.sidenav {
+  margin-right: 10px;
+  margin-left: 15%;
+  width: auto;
+  display:block;
+  padding: 15px;
+  height: auto;
+  position: fixed;
+  z-index: 1;
+  border: 4px solid #484848;
+  border-radius: 20px;
+  top: 70px;
+  left: 10px;
+  background: none;
+  overflow-x: hidden;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
 
 .title {
   margin-bottom: -30px;
@@ -85,31 +115,4 @@ select {
 .belowimg img:hover {
   opacity: 100%;
   transition: 0.2s;
-}
-
-.sidenav {
-  margin-right: 10px;
-  width: 130px;
-  height: auto;
-  position: fixed;
-  z-index: 1;
-  border: 4px solid #484848;
-  border-radius: 20px;
-  top: 70px;
-  left: 10px;
-  background: none;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
 }
