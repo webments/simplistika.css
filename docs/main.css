@@ -122,6 +122,10 @@ select {
   margin-top: 20px;
 }
 
+.repobuttons button, .repobuttonstop button {
+  margin: 3px;
+}
+
 .repobuttonstop {
   margin-top: 25px;
   margin-bottom: -40px;
