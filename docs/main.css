@@ -7,12 +7,12 @@ found in the LICENSE file.
 
 @font-face {
   font-family: Raleway;
-  src: url(../assets/fonts/Raleway-Medium.ttf);
+  src: url(assets/fonts/Raleway-Medium.ttf);
 }
 
 @font-face {
   font-family: Jetbrains;
-  src: url(../assets/fonts/JetBrainsMono-Regular.ttf);
+  src: url(assets/fonts/JetBrainsMono-Regular.ttf);
 }
 
 html {
