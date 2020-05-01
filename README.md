@@ -63,7 +63,7 @@ npm i webments-simplistika
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
   </head>
   <body></body>
 </html>
@@ -84,7 +84,7 @@ yarn add webments-simplistika
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
   </head>
   <body></body>
 </html>
@@ -98,16 +98,16 @@ yarn add webments-simplistika
 
 #### Latest (stable channel, automatically updated)
 ```
-https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.min.css
+https://unpkg.com/webments-simplistika@latest/simplistika.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-simplistika@[latest_version]/dist/css/simplistika.min.css
+https://unpkg.com/webments-simplistika@[latest_version]/simplistika.min.css
 ```
 
 > Make sure to replace latest_version to the latest available version [from the npm package manager](https://www.npmjs.com/package/webments-simplistika) (without the brackets!)
 
-e.g. `https://unpkg.com/webments-simplistika@0.1.0/dist/css/simplistika.min.css` (version number not updated, shown as example)
+e.g. `https://unpkg.com/webments-simplistika@0.1.0/simplistika.min.css` (version number not updated, shown as example)
 
 1. Import the CDN from your head area in your HTML file
 
@@ -115,7 +115,7 @@ e.g. `https://unpkg.com/webments-simplistika@0.1.0/dist/css/simplistika.min.css`
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/dist/css/simplistika.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/simplistika.min.css" />
   </head>
   <body></body>
 </html>
