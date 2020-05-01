@@ -4,14 +4,19 @@ Use of this source code is governed by a LGPL-2.1-style license that can be
 found in the LICENSE file.
 */
 
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+@font-face {
+  font-family: Raleway;
+  src: url(../assets/fonts/Raleway-Medium.ttf);
 }
 
 @font-face {
-  font-family: Source Code Pro;
-  src: url(../assets/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf);
+  font-family: Jetbrains;
+  src: url(../assets/fonts/JetBrainsMono-Medium.ttf);
+}
+
+html {
+  font-family: 'Raleway';
 }
 
 .container {
@@ -239,6 +244,10 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
+}
+
+code, pre {
+  font-family: 'Jetbrains' !important;
 }
 
 .learnmore {
