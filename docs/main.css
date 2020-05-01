@@ -156,7 +156,7 @@ select {
 }
 
 .main{
-  max-width: 1200px;
+  width:100%;
   margin: 0 auto;
 }
 
@@ -168,6 +168,7 @@ img {
 
 .cards {
   display: flex;
+  width:100%;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -217,11 +218,11 @@ img {
 
 .card_title {
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: capitalize;
-  margin: 0px;
+  margin-top: 20px;
 }
 
 .card_text {
@@ -230,6 +231,11 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 400;
+}
+
+.learnmore {
+  width: 100% !important;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1600px) {
