@@ -31,6 +31,10 @@ html {
   padding-right:30px;
 }
 
+.active {
+  color:#ffffff5e !important;
+}
+
 .lev1 {
   font-size:25px !important;
   color: #ffffff;
@@ -42,11 +46,11 @@ color: #ffffff91
 
 .lev2 {
 font-size:16px !important;
-color: #808080;
+color: #bdbdbd;
 }
 
 .lev2:hover {
-  color: #80808052
+  color: #bdbdbd90
 }
 
 .lastitem {
@@ -82,15 +86,6 @@ color: #808080;
   text-decoration: none;
   font-size: 25px;
   display: block;
-}
-
-.transition-fade {
-  transition: 0.4s;
-  opacity: 1;
-}
-
-html.is-animating .transition-fade {
-  opacity: 0;
 }
 
 .title {
@@ -162,6 +157,89 @@ select {
 .belowimg img:hover {
   opacity: 100%;
   transition: 0.2s;
+}
+
+.main{
+  width:100%;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  width:100%;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background: transparent;
+  border: 4px solid #484848;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  background: transparent;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+.learnmore {
+  width: 100% !important;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1600px) {
