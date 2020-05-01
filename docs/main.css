@@ -217,6 +217,10 @@ img {
   }
 }
 
+.footercopyright {
+  color: grey;
+}
+
 .card {
   background: transparent;
   border: 4px solid #484848;
