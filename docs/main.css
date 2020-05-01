@@ -25,38 +25,38 @@ html {
   margin-right: 20%;
   margin-left: auto;
   margin-top: 70px;
-  margin-bottom:86px;
+  margin-bottom: 86px;
   box-sizing: border-box;
   border: 4px solid #484848;
   border-radius: 20px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  margin-bottom:157px;
+  margin-bottom: 157px;
 }
 
 .sidebarul {
   list-style-type: none;
-  margin-left:-30px;
-  padding-right:30px;
+  margin-left: -30px;
+  padding-right: 30px;
 }
 
 .active {
-  color:#ffffff5e !important;
+  color: #ffffff5e !important;
 }
 
 .lev1 {
-  font-size:25px !important;
+  font-size: 25px !important;
   color: #ffffff;
 }
 
 .lev1:hover {
-color: #ffffff91
+  color: #ffffff91
 }
 
 .lev2 {
-font-size:16px !important;
-color: #bdbdbd;
+  font-size: 16px !important;
+  color: #bdbdbd;
 }
 
 .lev2:hover {
@@ -64,7 +64,7 @@ color: #bdbdbd;
 }
 
 .lastitem {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .sidenav {
@@ -76,7 +76,7 @@ color: #bdbdbd;
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 0px;
-  height:  calc(100% - 86px);
+  height: calc(100% - 86px);
   min-height: 200px;
   overflow: auto;
   position: -webkit-sticky;
@@ -124,7 +124,7 @@ select {
 
 .repobuttonstop {
   margin-top: 25px;
-  margin-bottom:-40px;
+  margin-bottom: -40px;
 }
 
 .titleandsubtitlearea {
@@ -168,8 +168,8 @@ select {
   transition: 0.2s;
 }
 
-.main{
-  width:100%;
+.main {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -181,7 +181,7 @@ img {
 
 .cards {
   display: flex;
-  width:100%;
+  width: 100%;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -242,11 +242,12 @@ img {
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.25rem;
   font-weight: 400;
 }
 
-code, pre {
+code,
+pre {
   font-family: 'Jetbrains' !important;
 }
 
@@ -256,12 +257,13 @@ code, pre {
 }
 
 @media only screen and (max-width: 1600px) {
-    .sidenav {
-        float: left;
-        left: 0;
-        margin-left: 0;
-    }
-    .container {
-        margin-right: 10%;
-    }
+  .sidenav {
+    float: left;
+    left: 0;
+    margin-left: 0;
+  }
+
+  .container {
+    margin-right: 10%;
+  }
 }
