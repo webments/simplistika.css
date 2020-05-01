@@ -12,7 +12,7 @@ html {
 .container {
   max-width: 880px;
   display: block;
-  margin-right: 15%;
+  margin-right: 20%;
   margin-left: auto;
   margin-top: 70px;
   margin-bottom:86px;
@@ -75,7 +75,7 @@ color: #bdbdbd;
   border-radius: 20px;
   z-index: 1;
   top: 0;
-  right: calc(15% + 900px);
+  right: calc(20% + 900px);
   background: none;
   overflow-x: hidden;
 }
