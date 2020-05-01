@@ -28,11 +28,9 @@ found in the LICENSE file.
   --yellow-disabled: #ffa20620;
   --green: #8bc34a;
   --green-disabled: #8bc34a20;
-  --gradient: linear-gradient(
-    45deg,
-    rgba(255, 29, 17, 0.9),
-    rgba(255, 162, 6, 0.9)
-  );
+  --gradient: linear-gradient(45deg,
+      rgba(255, 29, 17, 0.9),
+      rgba(255, 162, 6, 0.9));
   --dark1: #212121;
   --dark2: #2e2e2e;
   --dark3: #484848;
@@ -194,7 +192,7 @@ pre,
 code,
 .code {
   border-radius: 2px;
-  padding:5px;
+  padding: 5px;
   font-family: 'Source Code Pro';
 }
 
@@ -567,11 +565,11 @@ select[disabled],
   background-color: #eee;
 }
 
-.conatiner:hover input ~ .checkmark {
+.conatiner:hover input~.checkmark {
   background-color: #ccc;
 }
 
-.conatiner input:checked ~ .checkmark {
+.conatiner input:checked~.checkmark {
   background-color: var(--orange);
 }
 
@@ -581,7 +579,7 @@ select[disabled],
   display: none;
 }
 
-.conatiner input:checked ~ .checkmark:after {
+.conatiner input:checked~.checkmark:after {
   display: block;
 }
 
@@ -630,11 +628,11 @@ select[disabled],
   border-radius: 50%;
 }
 
-.radiocontainer:hover input ~ .checkmark {
+.radiocontainer:hover input~.checkmark {
   background-color: #ccc;
 }
 
-.radiocontainer input:checked ~ .checkmark {
+.radiocontainer input:checked~.checkmark {
   background-color: var(--orange);
 }
 
@@ -644,7 +642,7 @@ select[disabled],
   display: none;
 }
 
-.radiocontainer input:checked ~ .checkmarkradio:after {
+.radiocontainer input:checked~.checkmarkradio:after {
   display: block;
 }
 
@@ -732,6 +730,7 @@ nav,
 }
 
 @media (max-width: 1075px) {
+
   nav,
   .nv {
     padding: 0 20px;
