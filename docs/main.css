@@ -9,6 +9,11 @@ html {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+@font-face {
+  font-family: Source Code Pro;
+  src: url(../assets/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf);
+}
+
 .container {
   max-width: 880px;
   display: block;
