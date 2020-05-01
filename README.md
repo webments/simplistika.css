@@ -15,14 +15,8 @@
     <a aria-label="npm bundle size" href="https://www.npmjs.com/package/webments-simplistika">
     <img src="https://img.shields.io/bundlephobia/minzip/webments-simplistika" alt="">
   </a>
-  <a aria-label="github releases" href="https://github.com/Webments/simplistika.css/releases">
-    <img src="https://img.shields.io/github/v/release/webments/simplistika.css" alt="">
-  </a>
     <a aria-label="npm downloads" href="https://www.npmjs.com/package/webments-simplistika">
     <img src="https://img.shields.io/npm/dt/webments-simplistika" alt="">
-  </a>
-    <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
   </a>
    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
     <a aria-label="All Contributors" href="#contributors">
@@ -32,11 +26,14 @@
    <a aria-label="telegram" href="https://t.me/Webments">
      <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
   </a>
+  <a aria-label="license" href="https://github.com/Webments/simplistika.css/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/webments/simplistika.css" alt="">
+  </a>
 </p>
 
 simplistika.css is a lightweight, responsive and modern CSS framework.
 
-- Lightweight (~x gzipped), blazing fast.
+- Lightweight (~2.11kB minzipped), blazing fast.
 - Flexbox-based, responsive and mobile-friendly layout
 - Elegantly designed and developed elements and components
 
@@ -51,7 +48,7 @@ simplistika.css is a lightweight, responsive and modern CSS framework.
 - [Copyright and License](#license)
 
 ## <a name="gettingstarted"></a>Getting started
-simplistika.css is available via either npm (preferred), Yarn, or a CDN.
+simplistika.css is available via either NPM (preferred), Yarn, or a CDN.
 
 ### NPM
 
@@ -66,7 +63,7 @@ npm i webments-simplistika
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
   </head>
   <body></body>
 </html>
@@ -75,7 +72,7 @@ npm i webments-simplistika
 
 ### Yarn
 
-1. Obtain the package via yarn
+1. Obtain the package via Yarn
 
 ```shell
 yarn add webments-simplistika
@@ -87,7 +84,7 @@ yarn add webments-simplistika
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/dist/css/simplistika.min.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
   </head>
   <body></body>
 </html>
@@ -101,16 +98,16 @@ yarn add webments-simplistika
 
 #### Latest (stable channel, automatically updated)
 ```
-https://unpkg.com/webments-simplistika@latest/dist/css/simplistika.min.css
+https://unpkg.com/webments-simplistika@latest/simplistika.min.css
 ```
 #### Version-specific (stable channel, not automatically updated)
 ```
-https://unpkg.com/webments-simplistika@[latest_version]/dist/css/simplistika.min.css
+https://unpkg.com/webments-simplistika@[latest_version]/simplistika.min.css
 ```
 
-> Make sure to replace latest_version to the latest available version (without the brackets!)
+> Make sure to replace latest_version to the latest available version [from the npm package manager](https://www.npmjs.com/package/webments-simplistika) (without the brackets!)
 
-e.g. `https://unpkg.com/webments-simplistika@0.1.0/dist/css/simplistika.min.css` (version number not updated, shown as example)
+e.g. `https://unpkg.com/webments-simplistika@0.1.0/simplistika.min.css` (version number not updated, shown as example)
 
 1. Import the CDN from your head area in your HTML file
 
@@ -118,7 +115,7 @@ e.g. `https://unpkg.com/webments-simplistika@0.1.0/dist/css/simplistika.min.css`
 <!-- index.html -->
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/dist/css/simplistika.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/simplistika.min.css" />
   </head>
   <body></body>
 </html>
