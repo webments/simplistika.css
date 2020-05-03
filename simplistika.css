@@ -4,11 +4,6 @@ Use of this source code is governed by a LGPL-2.1-style license that can be
 found in the LICENSE file.
 */
 
-@font-face {
-  font-family: "Source Code Pro";
-  src: url("../assets/fonts/Source_Code_Pro/SourceCodePro-Regular.ttf") format("ttf")
-}
-
 /*color*/
 
 :root {
