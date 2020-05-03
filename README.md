@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img alt="simplistika.css icon" src="assets/icon.png" width="130px"/>
+  <img alt="simplistika.css icon" src="docs/assets/icon.png" width="130px"/>
   <h1 align="center">simplistika.css</h1>
 </p>
 

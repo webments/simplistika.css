@@ -4,49 +4,59 @@ Use of this source code is governed by a LGPL-2.1-style license that can be
 found in the LICENSE file.
 */
 
+
+@font-face {
+  font-family: Raleway;
+  src: url(assets/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Jetbrains;
+  src: url(assets/fonts/JetBrainsMono-Regular.ttf);
+}
+
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Raleway';
 }
 
 .container {
   max-width: 880px;
   display: block;
-  margin-right: 15%;
+  margin-right: 20%;
   margin-left: auto;
   margin-top: 70px;
-  margin-bottom:86px;
+  margin-bottom: 86px;
   box-sizing: border-box;
   border: 4px solid #484848;
   border-radius: 20px;
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
-  margin-bottom:157px;
+  margin-bottom: 157px;
 }
 
 .sidebarul {
   list-style-type: none;
-  margin-left:-30px;
-  padding-right:30px;
+  margin-left: -30px;
+  padding-right: 30px;
 }
 
 .active {
-  color:#ffffff5e !important;
+  color: #ffffff5e !important;
 }
 
 .lev1 {
-  font-size:25px !important;
+  font-size: 25px !important;
   color: #ffffff;
 }
 
 .lev1:hover {
-color: #ffffff91
+  color: #ffffff91
 }
 
 .lev2 {
-font-size:16px !important;
-color: #bdbdbd;
+  font-size: 16px !important;
+  color: #bdbdbd;
 }
 
 .lev2:hover {
@@ -54,7 +64,7 @@ color: #bdbdbd;
 }
 
 .lastitem {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .sidenav {
@@ -66,7 +76,7 @@ color: #bdbdbd;
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 0px;
-  height:  calc(100% - 86px);
+  height: calc(100% - 86px);
   min-height: 200px;
   overflow: auto;
   position: -webkit-sticky;
@@ -75,7 +85,7 @@ color: #bdbdbd;
   border-radius: 20px;
   z-index: 1;
   top: 0;
-  right: calc(15% + 900px);
+  right: calc(20% + 900px);
   background: none;
   overflow-x: hidden;
 }
@@ -112,9 +122,13 @@ select {
   margin-top: 20px;
 }
 
+.repobuttons button, .repobuttonstop button {
+  margin: 3px;
+}
+
 .repobuttonstop {
   margin-top: 25px;
-  margin-bottom:-40px;
+  margin-bottom: -40px;
 }
 
 .titleandsubtitlearea {
@@ -158,8 +172,8 @@ select {
   transition: 0.2s;
 }
 
-.main{
-  width:100%;
+.main {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -171,7 +185,7 @@ img {
 
 .cards {
   display: flex;
-  width:100%;
+  width: 100%;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -203,6 +217,10 @@ img {
   }
 }
 
+.footercopyright {
+  color: grey;
+}
+
 .card {
   background: transparent;
   border: 4px solid #484848;
@@ -232,8 +250,13 @@ img {
   color: #ffffff;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;    
+  margin-bottom: 1.25rem;
   font-weight: 400;
+}
+
+code,
+pre {
+  font-family: 'Jetbrains' !important;
 }
 
 .learnmore {
@@ -242,12 +265,13 @@ img {
 }
 
 @media only screen and (max-width: 1600px) {
-    .sidenav {
-        float: left;
-        left: 0;
-        margin-left: 0;
-    }
-    .container {
-        margin-right: 10%;
-    }
+  .sidenav {
+    float: left;
+    left: 0;
+    margin-left: 0;
+  }
+
+  .container {
+    margin-right: 10%;
+  }
 }
