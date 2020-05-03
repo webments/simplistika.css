@@ -18,6 +18,22 @@ found in the LICENSE file.
 html {
   font-family: 'Raleway';
   width: 100%;
+  scrollbar-width: thin; 
+  scrollbar-color: #484848 #212121;
+}
+
+::-webkit-scrollbar {
+  width: 12px;               
+}
+
+::-webkit-scrollbar-track {
+  background: none;        
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #484848;   
+  border-radius: 20px;       
+  border: 2px solid #484848;  
 }
 
 .container {
@@ -71,6 +87,7 @@ html {
   float: right;
   max-width: 240px;
   width: auto;
+  max-height: 100vh;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
