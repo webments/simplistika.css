@@ -17,13 +17,14 @@ found in the LICENSE file.
 
 html {
   font-family: 'Raleway';
+  width: 100%;
 }
 
 .container {
-  max-width: 880px;
+  max-width: 50%;
   display: block;
-  margin-right: 20%;
-  margin-left: auto;
+  margin-right: 25%;
+  margin-left: 25%;
   margin-top: 70px;
   margin-bottom: 86px;
   box-sizing: border-box;
@@ -85,7 +86,7 @@ html {
   border-radius: 20px;
   z-index: 1;
   top: 0;
-  right: calc(20% + 900px);
+  right: calc(75% + 10px);
   background: none;
   overflow-x: hidden;
 }
@@ -172,10 +173,36 @@ select {
   transition: 0.2s;
 }
 
-.main {
+.grid {
   width: 100%;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
 }
+
+@media (max-width: 1625px) {
+ .grid {
+  grid-template-columns: 1fr 1fr;
+ }
+ .container {
+  max-width: 70%;
+  width: 70%;
+  margin-right: 5%;
+ }
+}
+
+@media (max-width: 1132px) {
+ .container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+ }
+ .sidenav {
+  display: none;   
+ }
+}
+
 
 img {
   height: auto;
@@ -183,50 +210,11 @@ img {
   vertical-align: middle;
 }
 
-.cards {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cards_item {
-  display: flex;
-  padding: 1rem;
-}
-
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-  }
-}
-
-@media (min-width: 56rem) {
-  .cards_item {
-    width: 33.3333%;
-  }
-}
-
-.footercopyright {
-  color: grey;
-}
-
 .card {
   background: transparent;
   border: 4px solid #484848;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
+  max-width: 400px;
   overflow: hidden;
 }
 
@@ -264,14 +252,7 @@ pre {
   margin: 0;
 }
 
-@media only screen and (max-width: 1600px) {
-  .sidenav {
-    float: left;
-    left: 0;
-    margin-left: 0;
-  }
-
-  .container {
-    margin-right: 10%;
-  }
+.footercopyright {
+  color: grey;
 }
+
