@@ -291,50 +291,42 @@ blockquote,
 }
 
 .br-orange:hover:enabled,
-.br-orange:active:enabled,
-.br-orange:focus:enabled {
+.br-orange:active:enabled {
   background-color: var(--orange);
 }
 
 .br-blue:hover:enabled,
-.br-blue:active:enabled,
-.br-blue:focus:enabled {
+.br-blue:active:enabled {
   background-color: var(--blue);
 }
 
 .br-light-blue:hover:enabled,
-.br-light-blue:active:enabled,
-.br-light-blue:focus:enabled {
+.br-light-blue:active:enabled {
   background-color: var(--light-blue);
 }
 
 .br-red:hover:enabled,
-.br-red:active:enabled,
-.br-red:focus:enabled {
+.br-red:active:enabled {
   background-color: var(--red);
 }
 
 .br-pink:hover:enabled,
-.br-pink:active:enabled,
-.br-pink:focus:enabled {
+.br-pink:active:enabled {
   background-color: var(--pink);
 }
 
 .br-purple:hover:enabled,
-.br-purple:active:enabled,
-.br-purple:focus:enabled {
+.br-purple:active:enabled {
   background-color: var(--purple);
 }
 
 .br-yellow:hover:enabled,
-.br-yellow:active:enabled,
-.br-yellow:focus:enabled {
+.br-yellow:active:enabled {
   background-color: var(--yellow);
 }
 
 .br-green:hover:enabled,
-.br-green:active:enabled,
-.br-green:focus:enabled {
+.br-green:active:enabled {
   background-color: var(--green);
 }
 
