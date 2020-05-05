@@ -250,6 +250,11 @@ img {
   background: transparent;
 }
 
+.footericons {
+  margin-bottom:-30px;
+  margin-top:30px;
+}
+
 .card_title {
   color: #ffffff;
   font-size: 1.3rem;
