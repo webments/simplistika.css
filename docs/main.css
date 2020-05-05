@@ -265,12 +265,13 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .card button {
   position: absolute;
-  left: 5%;
-  bottom: 10px;
+  left: 10%;
+  bottom: 20px;
 }
 
 code,
@@ -279,7 +280,7 @@ pre {
 }
 
 .learnmore {
-  width: 90% !important;
+  width: 80% !important;
   margin: 0;
 }
 
