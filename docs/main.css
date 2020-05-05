@@ -236,6 +236,7 @@ img {
 
 .card {
   background: transparent;
+  position: relative;
   border: 4px solid #484848;
   border-radius: 20px;
   max-width: 400px;
@@ -266,13 +267,19 @@ img {
   font-weight: 400;
 }
 
+.card button {
+  position: absolute;
+  left: 5%;
+  bottom: 10px;
+}
+
 code,
 pre {
   font-family: 'Jetbrains' !important;
 }
 
 .learnmore {
-  width: 100% !important;
+  width: 90% !important;
   margin: 0;
 }
 
