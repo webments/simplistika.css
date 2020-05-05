@@ -119,23 +119,20 @@ html {
   text-align:center;
 }
 
-.horizbuttondiv button {
-  display: block;
-    float: left;
-    height: 50px;
-    width: 100px;
-    margin-right: 5px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
+.horizbuttondiv {
+  width:100%;
+  float: center;
+  text-align: center;
+  margin-top:10px;
 }
 
-.horizbuttondiv button.last {
-  margin-right: 0;
-}
-
-.clear {
-  clear: both;
+.gitbuttons{
+  width:32.3% !important;
+  margin-left:3px;
+  margin-right:3px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:0;
 }
 
 .author {
@@ -348,7 +345,8 @@ pre {
 
 .learnmorehoriz {
   width: 100% !important;
-  margin: 0;
+  height: 50px;
+  margin: 0px;
 }
 
 .footercopyright {
