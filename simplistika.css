@@ -651,6 +651,7 @@ nav,
   display: block;
   box-sizing: border-box;
   padding: 0 40px;
+  z-index: 100;
 }
 
 .nv ul {
@@ -696,7 +697,7 @@ nav,
 }
 
 .nv .inp-text {
-  right: 0;
+  float: right;
   border-color: white;
   border-radius: 12px;
   width: auto;
