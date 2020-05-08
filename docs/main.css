@@ -58,6 +58,12 @@ html {
   padding-right: 30px;
 }
 
+.version {
+  margin-left:27px;
+  color: grey;
+  font-size:20px;
+}
+
 .active {
   color: #ffffff5e !important;
 }
