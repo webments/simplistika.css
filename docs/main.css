@@ -4,7 +4,6 @@ Use of this source code is governed by a LGPL-2.1-style license that can be
 found in the LICENSE file.
 */
 
-
 @font-face {
   font-family: Raleway;
   src: url(assets/fonts/Raleway-Medium.ttf);
@@ -16,24 +15,24 @@ found in the LICENSE file.
 }
 
 html {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   width: 100%;
-  scrollbar-width: thin; 
+  scrollbar-width: thin;
   scrollbar-color: #484848 #212121;
 }
 
 ::-webkit-scrollbar {
-  width: 12px;               
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background: none;        
+  background: none;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #484848;   
-  border-radius: 20px;       
-  border: 2px solid #484848;  
+  background-color: #484848;
+  border-radius: 20px;
+  border: 2px solid #484848;
 }
 
 .container {
@@ -59,9 +58,9 @@ html {
 }
 
 .version {
-  margin-left:27px;
+  margin-left: 27px;
   color: grey;
-  font-size:20px;
+  font-size: 20px;
 }
 
 .active {
@@ -74,7 +73,7 @@ html {
 }
 
 .lev1:hover {
-  color: #ffffff91
+  color: #ffffff91;
 }
 
 .lev2 {
@@ -83,7 +82,7 @@ html {
 }
 
 .lev2:hover {
-  color: #bdbdbd90
+  color: #bdbdbd90;
 }
 
 .lastitem {
@@ -145,7 +144,8 @@ select {
   margin-top: 20px;
 }
 
-.repobuttons button, .repobuttonstop button {
+.repobuttons button,
+.repobuttonstop button {
   margin: 3px;
 }
 
@@ -175,10 +175,9 @@ select {
 .belowimg {
   display: inline-block;
   padding: 40px;
-  padding-top: 35px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-bottom: 40px;
-  padding-right: 20px;
+  padding-right: 10px;
   cursor: pointer;
 }
 
@@ -203,37 +202,37 @@ select {
 }
 
 @media (max-width: 1625px) {
- .grid {
-  grid-template-columns: 1fr 1fr;
- }
- .container {
-  max-width: 70%;
-  width: 70%;
-  margin-right: 5%;
-  margin-left: 25%;
- }
- .sidenav {
-  right: calc(75% + 10px);
- }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container {
+    max-width: 70%;
+    width: 70%;
+    margin-right: 5%;
+    margin-left: 25%;
+  }
+  .sidenav {
+    right: calc(75% + 10px);
+  }
 }
 
 @media (max-width: 1060px) {
- .container {
-  max-width: 98%;
-  width: 98%;
-  margin: 0 auto;
- }
- .sidenav {
-  display: none;   
- }
+  .container {
+    max-width: 98%;
+    width: 98%;
+    margin: 0 auto;
+  }
+  .sidenav {
+    display: none;
+  }
 }
 
 @media (max-width: 586px) {
- .grid {
-  grid-template-columns: 1fr;
- }
-}    
-    
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 img {
   height: auto;
   max-width: 100%;
@@ -257,8 +256,8 @@ img {
 }
 
 .footericons {
-  margin-bottom:-30px;
-  margin-top:30px;
+  margin-bottom: -40px;
+  margin-top: 30px;
 }
 
 .card_title {
@@ -287,7 +286,7 @@ img {
 
 code,
 pre {
-  font-family: 'Jetbrains' !important;
+  font-family: "Jetbrains" !important;
 }
 
 .learnmore {
@@ -296,6 +295,9 @@ pre {
 }
 
 .footercopyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: -45px;
   color: grey;
 }
-
