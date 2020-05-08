@@ -38,6 +38,8 @@ html {
 .container {
   max-width: 66.5%;
   width: 66.5%;
+  z-index: 100;
+  display: block;
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 70px;
@@ -87,6 +89,11 @@ html {
   margin-bottom: 20px;
 }
 
+.side {
+  position: absolute;
+  right: calc(75% + 10px);
+}
+
 .sidenav {
   float: right;
   max-width: 240px;
@@ -105,7 +112,6 @@ html {
   border-radius: 20px;
   z-index: 1;
   top: 0;
-  right: calc(75% + 10px);
   background: none;
   overflow-x: hidden;
 }
@@ -208,9 +214,6 @@ select {
     width: 70%;
     margin-right: 5%;
     margin-left: 25%;
-  }
-  .sidenav {
-    right: calc(75% + 10px);
   }
 }
 
