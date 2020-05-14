@@ -105,15 +105,17 @@ html {
   padding-bottom: 15px;
   padding-right: 25px;
   padding-left: 0px;
+  margin-top: 70px;
   height: calc(100% - 86px);
   min-height: 200px;
   overflow: auto;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   border: 4px solid #484848;
   border-radius: 20px;
   z-index: 1;
   top: 0;
+  right: calc(75% + 10px);
   background: none;
   overflow-x: hidden;
 }
