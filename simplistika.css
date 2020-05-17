@@ -465,6 +465,45 @@ input[type="checkbox"],
 
 /*dropdown*/
 
+.drp {
+  position: relative;
+  display: inline-block;
+}
+
+.drp div {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: var(--dark3);
+  border-color: var(--dark3);
+  border-radius: 8px;
+  width: 170px;
+  z-index: 1;
+}
+
+.drp .bt {
+  text-align: left;
+}
+
+.drp div a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+.drp div a:hover {
+  background-color: var(--dark4);
+  border-radius: 8px;
+  transition: .2s;
+}
+
+.drp:hover div {
+  display: block;  
+}
+
+
 select,
 .slc {
   border-style: solid;
@@ -510,7 +549,7 @@ select:hover,
 button:disabled,
 .button:disabled,
 .bt:disabled,
-button[disabled],
+button[disabled], 
 input[type="text"]:disabled,
 .inp-text:disabled,
 input[type="text"][disabled],
@@ -518,6 +557,7 @@ select[disabled],
 .slc:disabled {
   border-color: var(--dark2);
   color: var(--light2);
+  pointer-events: none; !im
 }
 
 /*checkbox*/
@@ -641,6 +681,26 @@ select[disabled],
   border-radius: 50%;
   background: var(--orange);
 }
+/*menu*/
+
+.hm {
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid #fff;
+    border-bottom: 0.2em solid #fff;
+}
+
+.hm:before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #fff;
+}
 
 /*navbar*/
 
@@ -658,7 +718,8 @@ nav,
   position: relative;
   text-align: right;
   list-style-type: none;
-  margin: 0;
+  margin-top: auto;
+  margin-bottom: auto;
   padding: 0;
   overflow: hidden;
   display: flex;
@@ -671,7 +732,7 @@ nav,
 
 .nv li a {
   display: block;
-  padding: 16px 12px;
+  padding: 20px 12px;
   color: white;
   font-size: 1.2em;
   text-decoration: none;
@@ -690,6 +751,7 @@ nav,
 .nv-lg {
   margin-left: 10px;
   margin-top: 5px;
+  padding: 5px 0;
   text-decoration: none;
   font-size: 2.1rem;
   color: white;
@@ -704,6 +766,7 @@ nav,
   max-width: 220px;
   min-width: 10%;
   margin-left: auto;
+  margin-right: 0;
   order: 2;
   transition: width 0.2s ease-in-out;
   -webkit-transition: width 0.2s ease-in-out;
@@ -717,12 +780,36 @@ nav,
   background: white;
 }
 
+.nv .hm {
+ position: absolute;
+ right: 0;
+ top: 22px;
+ display: none;
+}
+
 @media (max-width: 1075px) {
 
   nav,
   .nv {
     padding: 0 20px;
   }
+}
+
+@media (max-width: 834px) {
+   .nv .hm {
+     display: block;   
+   }
+   .nv ul li, .nv .inp-text {
+     display: none;
+   }
+   .nv .hm input:checked ~ .nv ul li {
+     display: block;
+   } 
+
+   .nv-lg {
+     margin: 0;
+     padding: 12px 0;
+   }
 }
 
 .nv-gradient {
@@ -759,6 +846,10 @@ nav,
 
 .nv-green {
   background: var(--green);
+}
+
+.nv-dark {
+  background: var(--dark3);
 }
 
 .nv-orange ul li a:hover,
@@ -810,4 +901,10 @@ nav,
 .nv-green .inp-text:hover:enabled,
 .nv-green .inp-text:focus:enabled {
   color: var(--green) !important;
+}
+
+.nv-dark ul li a:hover,
+.nv-dark .inp-text:hover:enabled,
+.nv-dark .inp-text:focus:enabled {
+  color: var(--dark3) !important;
 }
