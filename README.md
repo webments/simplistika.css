@@ -31,8 +31,9 @@
   </a>
 </p>
 
-simplistika.css is a lightweight, responsive and modern CSS framework.
+simplistika.css is a single-file, lightweight, responsive and modern CSS framework.
 
+- Incredibly KISS.
 - Lightweight (~2.11kB minzipped), blazing fast.
 - Flexbox-based, responsive and mobile-friendly layout
 - Elegantly designed and developed elements and components
@@ -50,6 +51,37 @@ simplistika.css is a lightweight, responsive and modern CSS framework.
 ## <a name="gettingstarted"></a>Getting started
 simplistika.css is available via either NPM (preferred), Yarn, or a CDN.
 
+### KISSest Installation
+
+1. Clone the file via curl or wget
+
+
+### KISSest Installation
+
+1. Clone the file wherever you want via wget or curl
+
+```shell
+wget https://raw.githubusercontent.com/Webments/simplistika.css/master/simplistika-min.css
+```
+
+or
+
+```shell
+curl -o simplistika.css "https://raw.githubusercontent.com/Webments/simplistika.css/master/simplistika-min.css"
+```
+
+2. Insert the line below to your head area in your HTML file
+
+```html
+<!-- index.html (that is just an example)-->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="simplistika-min.css" />
+  </head>
+  <body></body>
+</html>
+```
+
 ### NPM
 
 1. Obtain the package via NPM
@@ -60,7 +92,7 @@ npm i webments-simplistika
 2. Insert the line below to your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
@@ -81,7 +113,7 @@ yarn add webments-simplistika
 2. Insert the line below to your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
