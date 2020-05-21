@@ -49,12 +49,7 @@ simplistika.css is a single-file, lightweight, responsive and modern CSS framewo
 - [Copyright and License](#license)
 
 ## <a name="gettingstarted"></a>Getting started
-simplistika.css is available via either NPM (preferred), Yarn, or a CDN.
-
-### KISSest Installation
-
-1. Clone the file via curl or wget
-
+simplistika.css is available via either direct installation, NPM, Yarn, or a CDN.
 
 ### KISSest Installation
 
