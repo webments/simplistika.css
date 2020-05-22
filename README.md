@@ -31,8 +31,9 @@
   </a>
 </p>
 
-simplistika.css is a lightweight, responsive and modern CSS framework.
+simplistika.css is a single-file, lightweight, responsive and modern CSS framework.
 
+- Incredibly KISS.
 - Lightweight (~2.11kB minzipped), blazing fast.
 - Flexbox-based, responsive and mobile-friendly layout
 - Elegantly designed and developed elements and components
@@ -48,7 +49,33 @@ simplistika.css is a lightweight, responsive and modern CSS framework.
 - [Copyright and License](#license)
 
 ## <a name="gettingstarted"></a>Getting started
-simplistika.css is available via either NPM (preferred), Yarn, or a CDN.
+simplistika.css is available via either direct installation, NPM, Yarn, or a CDN.
+
+### KISSest Installation
+
+1. Clone the file wherever you want via wget or curl
+
+```shell
+wget https://raw.githubusercontent.com/Webments/simplistika.css/master/simplistika.min.css
+```
+
+or
+
+```shell
+curl -o simplistika.css "https://raw.githubusercontent.com/Webments/simplistika.css/master/simplistika.min.css"
+```
+
+2. Insert the line below to your head area in your HTML file
+
+```html
+<!-- index.html (that is just an example)-->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="simplistika-min.css" />
+  </head>
+  <body></body>
+</html>
+```
 
 ### NPM
 
@@ -60,7 +87,7 @@ npm i webments-simplistika
 2. Insert the line below to your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
@@ -81,7 +108,7 @@ yarn add webments-simplistika
 2. Insert the line below to your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (that is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="node_modules/webments-simplistika/simplistika.min.css" />
@@ -112,7 +139,7 @@ e.g. `https://unpkg.com/webments-simplistika@0.1.0/simplistika.min.css` (version
 1. Import the CDN from your head area in your HTML file
 
 ```html
-<!-- index.html -->
+<!-- index.html (this is just an example)-->
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/webments-simplistika/simplistika.min.css" />
@@ -139,6 +166,9 @@ simplistika.css is compatible and has been tested with recent versions of
 - Opera
 - Safari
 - Internet Explorer (partially supported)
+- WebkitGTK
+- Surf
+- Browsh
 
 > The compatibility information above is based on our test and research information and doesn't mean that it won't work with other browsers.
 
