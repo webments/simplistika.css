@@ -19,10 +19,8 @@
     <img src="https://img.shields.io/npm/dt/webments-simplistika" alt="">
   </a>
    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-    <a aria-label="All Contributors" href="#contributors">
-    <img src="https://img.shields.io/badge/all_contributors-2-orange.svg" alt="">
-  </a>
-  <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
    <a aria-label="telegram" href="https://t.me/Webments">
      <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
   </a>
@@ -185,7 +183,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.ardacebi.com"><img src="https://avatars3.githubusercontent.com/u/17576065?v=4" width="100px;" alt=""/><br /><sub><b>Arda Çebi</b></sub></a><br /><a href="https://github.com/Webments/simplistika.css/commits?author=ardacebi" title="Code">💻</a> <a href="#design-ardacebi" title="Design">🎨</a> <a href="https://github.com/Webments/simplistika.css/commits?author=ardacebi" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://mercode.org"><img src="https://avatars1.githubusercontent.com/u/40173707?v=4" width="100px;" alt=""/><br /><sub><b>Tan A.</b></sub></a><br /><a href="https://github.com/Webments/simplistika.css/commits?author=Yutyo" title="Code">💻</a> <a href="#design-Yutyo" title="Design">🎨</a></td>
+    <td align="center"><a href="http://mercode.org"><img src="https://avatars1.githubusercontent.com/u/40173707?v=4" width="100px;" alt=""/><br /><sub><b>Tan A.</b></sub></a><br /><a href="https://github.com/Webments/simplistika.css/commits?author=Yutyo" title="Code">💻</a> <a href="#design-Yutyo" title="Design">🎨</a> <a href="https://github.com/Webments/simplistika.css/commits?author=Yutyo" title="Documentation">📖</a></td>
   </tr>
 </table>
 
