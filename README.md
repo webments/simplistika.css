@@ -18,9 +18,11 @@
     <a aria-label="npm downloads" href="https://www.npmjs.com/package/webments-simplistika">
     <img src="https://img.shields.io/npm/dt/webments-simplistika" alt="">
   </a>
-   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+    <a aria-label="All Contributors" href="#contributors">
+    <img src="https://img.shields.io/badge/all_contributors-2-orange.svg" alt="">
+  </a>
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
    <a aria-label="telegram" href="https://t.me/Webments">
      <img src="https://img.shields.io/badge/chat-on%20telegram-blue" alt="">
   </a>
