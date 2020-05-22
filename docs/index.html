@@ -8,124 +8,138 @@ found in the LICENSE file.
 <html lang="en" class="dark1">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="main.css" />
-  <link rel="stylesheet" type="text/css" href="../simplistika.css" />
-  <link rel="shortcut icon" href="assets/icon.png" />
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script src="index.js"></script>
-  <title>Webments | Simplistika</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="../simplistika.css" />
+    <link rel="shortcut icon" href="assets/icon.png" />
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="index.js"></script>
+    <title>Webments | Simplistika</title>
 </head>
 
 <body>
-  <div class="sidenav">
-    <ul class="sidebarul">
-      <li><a class="lev1 active lastitem" href="index.html">Introduction</a></li>
-      <li><a class="lev1" href="getting-started/installing.html">Getting started</a></li>
-      <li><a class="lev2 lastitem" href="getting-started/installing.html">Installing</a></li>
-      <li><a class="lev1" href="layout/grids.html">Layouts</a></li>
-      <li><a class="lev2" href="layout/grids.html">Grids</a></li>
-      <li><a class="lev2" href="layout/layouts.html">Layouts</a></li>
-      <li><a class="lev2 lastitem" href="layout/spaces.html">Spaces</a></li>
-      <li><a class="lev1" href="components/alerts.html">Components</a></li>
-      <li><a class="lev2" href="components/alerts.html">Alerts</a></li>
-      <li><a class="lev2" href="components/avatars.html">Avatars</a></li>
-      <li><a class="lev2" href="components/badges.html">Badges</a></li>
-      <li><a class="lev2" href="components/blockquotes.html">Blockquotes</a></li>
-      <li><a class="lev2" href="components/buttons.html">Buttons</a></li>
-      <li><a class="lev2" href="components/cards.html">Cards</a></li>
-      <li><a class="lev2" href="components/checkboxes.html">Checkboxes</a></li>
-      <li><a class="lev2" href="components/chips.html">Chips</a></li>
-      <li><a class="lev2" href="components/code-blocks.html">Code Blocks</a></li>
-      <li><a class="lev2" href="components/collapses.html">Collapses</a></li>
-      <li><a class="lev2" href="components/data-tables.html">Data Tables</a></li>
-      <li><a class="lev2" href="components/dialogs.html">Dialogs</a></li>
-      <li><a class="lev2" href="components/dividers.html">Dividers</a></li>
-      <li><a class="lev2" href="components/dropdowns.html">Dropdowns</a></li>
-      <li><a class="lev2" href="components/flashes.html">Flashes</a></li>
-      <li><a class="lev2" href="components/forms.html">Forms</a></li>
-      <li><a class="lev2" href="components/loaders.html">Loaders</a></li>
-      <li><a class="lev2" href="components/menus.html">Menus</a></li>
-      <li><a class="lev2" href="components/navbars.html">Navbars</a></li>
-      <li><a class="lev2" href="components/navigation-drawer.html">Navigation Drawer</a></li>
-      <li><a class="lev2" href="components/navigation-rail.html">Navigation Rail</a></li>
-      <li><a class="lev2" href="components/paginations.html">Paginations</a></li>
-      <li><a class="lev2" href="components/progress-indicators.html">Progress Indicators</a></li>
-      <li><a class="lev2" href="components/radio-buttons.html">Radio Buttons</a></li>
-      <li><a class="lev2" href="components/results.html">Results</a></li>
-      <li><a class="lev2" href="components/sliders.html">Sliders</a></li>
-      <li><a class="lev2" href="components/snackbars.html">Snackbars</a></li>
-      <li><a class="lev2" href="components/switches.html">Switches</a></li>
-      <li><a class="lev2" href="components/steppers.html">Steppers</a></li>
-      <li><a class="lev2" href="components/tabs.html">Tabs</a></li>
-      <li><a class="lev2" href="components/text-and-typography.html">Text and Typography</a></li>
-      <li><a class="lev2" href="components/text-fields.html">Text fields</a></li>
-      <li><a class="lev2" href="components/timelines.html">Timelines</a></li>
-      <li><a class="lev2" href="components/pickers.html">Pickers</a></li>
-      <li><a class="lev2" href="components/tooltips.html">Tooltips</a></li>
-      <li><a class="lev2 lastitem" href="components/upload.html">Upload</a></li>
-      <li><a class="lev1" href="additions/close-button.html">Additions</a></li>
-      <li><a class="lev2" href="additions/close-button.html">Close button</a></li>
-      <li><a class="lev2" href="additions/shadows.html">Shadows</a></li>
-    </ul>
-  </div>
+    <div class="sidenav">
+        <ul class="sidebarul" id="sidenavid">
+            <select id="dropdown" class="slc slc-dark br-orange version">
+                <option value="1">v1.0.0</option>
+            </select>
+            <li><a class="lev1 active lastitem" href="index.html">Introduction</a></li>
+            <li><a class="lev1" href="getting-started/installing.html">Getting started</a></li>
+            <li><a class="lev2 lastitem" href="getting-started/installing.html">Installing</a></li>
+            <li><a class="lev1" href="layout/grids.html">Layouts</a></li>
+            <li><a class="lev2" href="layout/grids.html">Grids</a></li>
+            <!--<li><a class="lev2 lastitem" href="layout/layouts.html">Layouts</a></li>-->
+            <li><a class="lev2 lastitem" href="layout/spaces.html">Spaces</a></li>
+            <li><a class="lev1" href="components/alerts.html">Components</a></li>
+            <!--<li><a class="lev2" href="components/alerts.html">Alerts</a></li>-->
+            <!--<li><a class="lev2" href="components/avatars.html">Avatars</a></li>-->
+            <!--<li><a class="lev2" href="components/badges.html">Badges</a></li>-->
+            <li><a class="lev2" href="components/blockquotes.html">Blockquotes</a></li>
+            <li><a class="lev2" href="components/buttons.html">Buttons</a></li>
+            <li><a class="lev2" href="components/cards.html">Cards</a></li>
+            <li><a class="lev2" href="components/checkboxes.html">Checkboxes</a></li>
+            <!--<li><a class="lev2" href="components/chips.html">Chips</a></li>-->
+            <li><a class="lev2" href="components/code-blocks.html">Code Blocks</a></li>
+            <!--<li><a class="lev2" href="components/collapses.html">Collapses</a></li>-->
+            <!--<li><a class="lev2" href="components/data-tables.html">Data Tables</a></li>-->
+            <!--<li><a class="lev2" href="components/dialogs.html">Dialogs</a></li>-->
+            <!--<li><a class="lev2" href="components/dividers.html">Dividers</a></li>-->
+            <li><a class="lev2" href="components/dropdowns.html">Dropdowns</a></li>
+            <li><a class="lev2" href="components/flashes.html">Flashes</a></li>
+            <!--<li><a class="lev2" href="components/forms.html">Forms</a></li>-->
+            <!--<li><a class="lev2" href="components/loaders.html">Loaders</a></li>-->
+            <!--<li><a class="lev2" href="components/menus.html">Menus</a></li>-->
+            <li><a class="lev2" href="components/navbars.html">Navbars</a></li>
+            <!--<li><a class="lev2" href="components/navigation-drawer.html">Navigation Drawer</a></li>-->
+            <!--<li><a class="lev2" href="components/navigation-rail.html">Navigation Rail</a></li>-->
+            <!--<li><a class="lev2" href="components/paginations.html">Paginations</a></li>-->
+            <!--<li><a class="lev2" href="components/progress-indicators.html">Progress Indicators</a></li>-->
+            <li><a class="lev2" href="components/radio-buttons.html">Radio Buttons</a></li>
+            <!--<li><a class="lev2" href="components/results.html">Results</a></li>-->
+            <!--<li><a class="lev2" href="components/sliders.html">Sliders</a></li>-->
+            <!--<li><a class="lev2" href="components/snackbars.html">Snackbars</a></li>-->
+            <!--<li><a class="lev2" href="components/switches.html">Switches</a></li>-->
+            <!--<li><a class="lev2" href="components/steppers.html">Steppers</a></li>-->
+            <!--<li><a class="lev2" href="components/tabs.html">Tabs</a></li>-->
+            <li><a class="lev2" href="components/text-and-typography.html">Text and Typography</a></li>
+            <li><a class="lev2" href="components/text-fields.html">Text fields</a></li>
+            <!--<li><a class="lev2" href="components/timelines.html">Timelines</a></li>-->
+            <li><a class="lev2 lastitem" href="components/pickers.html">Pickers</a></li>
+            <!--<li><a class="lev2" href="components/tooltips.html">Tooltips</a></li>-->
+            <!--<li><a class="lev2 lastitem" href="components/upload.html">Upload</a></li>-->
+            <li><a class="lev1" href="options/shadows.html">Options</a></li>
 
-
-  <div class="container">
-    <div class="titleandsubtitlearea">
-      <h4 class="title">Webments</h4>
-      <h1>simplistika.css</h1>
-      <div class="repobuttons">
-        <button class="mini-bt br-orange" href="https://github.com/webments/simplistika.css">Star</button>
-        <button class="mini-bt br-orange" href="https://github.com/webments/simplistika.css/fork">Fork</button>
-        <button class="mini-bt br-orange" href="https://github.com/webments/simplistika.css/subscription">Watch</button>
-      </div>
+            <li><a class="lev2" href="options/shadows.html">Shadows</a></li>
+        </ul>
     </div>
-    <div class="elementsdiv">
-      <p>Welcome to the simplistika.css documentation.</p>
-          <div class="grid">
-            <div class="card">
-              <div class="card_image"><img src="images/ui-components.png"></div>
-              <div class="card_content">
-                <h2 class="card_title">UI Components</h2>
-                <p class="card_text">User interface components such as buttons, text fields and more.</p>
-                <form action="components/blockquotes.html">
-                  <button class="mini-bt br-orange learnmore">Learn more</button>
-                </form>
-              </div>
+
+
+    <div class="container">
+        <div class="titleandsubtitlearea">
+            <h4 class="title">Webments</h4>
+            <h1>simplistika.css</h1>
+            <div class="repobuttons">
+                <button class="mini-bt br-orange" target="_blank"
+                    onclick="location.href='https://github.com/webments/simplistika.css';">Star</button>
+                <button class="mini-bt br-orange" target="_blank"
+                    onclick="location.href='https://github.com/webments/simplistika.css/fork';">Fork</button>
+                <button class="mini-bt br-orange" target="_blank"
+                    onclick="location.href='https://github.com/webments/simplistika.css/subscription';">Watch</button>
             </div>
-            <div class="card">
-              <div class="card_image"><img src="images/layout.png"></div>
-              <div class="card_content">
-                <h2 class="card_title">Layouts Tools</h2>
-                <p class="card_text">Layouting and design tools such as grids and spaces to help you arrange things.</p>
-                <form action="layout/grids.html">
-                  <button class="mini-bt br-orange learnmore">Learn more</button>
-                </form>
-              </div>
-            </div>
-            <div class="card">
-                <div class="card_image"><img src="images/additions.png"></div>
-                <div class="card_content">
-                  <h2 class="card_title">Additions</h2>
-                  <p class="card_text">Others such as Typography and component options.</p>
-                  <form action="additions/close-button.html">
-                    <button class="mini-bt br-orange learnmore">Learn more</button>
-                  </form>
+        </div>
+        <div class="elementsdiv">
+            <p>Welcome to the simplistika.css documentation.</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="card_image"><img src="images/ui-components.png"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">UI Components</h2>
+                        <p class="card_text">User interface components such as buttons, text fields and more.</p>
+                        <form action="components/blockquotes.html">
+                            <button class="mini-bt br-orange learnmore">Learn more</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image"><img src="images/layout.png"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Layouts Tools</h2>
+                        <p class="card_text">Layouting and design tools such as grids and spaces to help you arrange
+                            things.</p>
+                        <form action="layout/grids.html">
+                            <button class="mini-bt br-orange learnmore">Learn more</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_image"><img src="images/options.png"></div>
+                    <div class="card_content">
+                        <h2 class="card_title">Global Options</h2>
+                        <p class="card_text">Options you can use with every simplistika.css component such as shadows.
+                        </p>
+                        <form action="options/close-button.html">
+                            <button class="mini-bt br-orange learnmore">Learn more</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-         </div>
-      </div>
+        </div>
 
-    <footer>
-      <center>
-        <a class="belowimg" href="https://github.com/Webments" target="_blank"><img
-            src="assets/footer.png"></img></a> <a class=" belowimg" href="https://github.com/mercode-org"
-            target="_blank"><img src="assets/icon.png"></img></a>
-        <p class="footercopyright">Copyright 2020 The Webments Maintainers and Contributors.</p>
-      </center>
-    </footer>
+
+        <footer>
+            <center>
+                <div class="footerarea">
+                    <p class="footercopyright">Copyright © 2020 The Webments Maintainers and Contributors.</p>
+                    <div class="footericons">
+                        <a class="belowimg" href="https://github.com/Webments" target="_blank"><img
+                                src="assets/footer.png"></img></a>
+                    </div>
+                </div>
+            </center>
+        </footer>
+    </div>
+    </div>
 </body>
 
 </html>
