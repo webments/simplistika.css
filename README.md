@@ -5,7 +5,7 @@
 </p>
 
 <h3 align="center">by Webments</h3>
-<p align="center">Simplistika is <a href="https://github.com/mercode-org">Mercode's</a> design language.</p>
+<p align="center">Simplistika is a linear and straightforward design language.</p>
 <h3 align="center">Warning: Work in progress, do NOT use.</h3>
 
 <p align="center">
