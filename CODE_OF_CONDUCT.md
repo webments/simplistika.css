@@ -1,76 +1,30 @@
-# Contributor Covenant Code of Conduct
+# BONA FIDE CODE OF CONDUCT
 
-## Our Pledge
+Version 2.1.0 
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+This community encourages contributions from anyone, regardless of any demographic characteristic and political views. We ask all contributors to make a conscious effort to communicate in ways that avoid practices that will predictably and unnecessarily risk putting some contributors off.
 
-## Our Standards
+## Guidelines
 
-Examples of behavior that contributes to creating a positive environment
-include:
+*  Please assume all other participants are posting in good faith with the implicit purpose to help our community;
+*  Call other participants by the names they use, and honor their preferences about their gender identity;
+*  Don't make personal attacks against other participants. If you need to be critical, please underline that you are criticizing a statement, not a person;
+*  Let's not raise politics other than software and web freedoms, and basic human rights;
+*  Please abstain from contributing to vicious circles of escalating verbal aggression. A private response - politely stating your feelings as feelings and asking for peace - may calm things down;
+*  Please be kind to other contributors when saying they made a mistake, as nobody is infallible;
+*  Please respond only to what people actually said with objectivity and self-control;
+*  Brief off-topic is acceptable, but please try to keep the overall discussion on-topic;
+*  Rather than trying to have the last word, look for the times when there is no need to reply because your comment won’t add any new useful information;
+*  Internet is not be the best way to transmit emotions, so please don't hold a grudge against your peers.
 
-- Using welcoming and inclusive language
-- Being respectful of differing viewpoints and experiences
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Showing empathy towards other community members
+By making an effort to follow these guidelines, our discussions will be friendlier and reach conclusions more easily. The consequences for repeatedly violating these guidelines will be:
 
-Examples of unacceptable behavior by participants include:
+1.  A friendly warning;
+2.  Temporary loss of the write access to our services (mute);
+3. Temporary loss of both read and write access to our services (ban).
 
-- The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-- Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+We don’t like applying penalties and we believe people can change over time and then return to participate again with renewed politeness.
 
-## Our Responsibilities
+Inspired by Richard Stallman's GNU Kind Communications Guidelines.
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
-
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
-
-## Scope
-
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
-
-## Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at ardacebi1@gmail.com. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
-
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-
-[homepage]: https://www.contributor-covenant.org
-
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+*\~ Lorenzo L. Ancora and Tan S. Akıncı - 05/25/20*
