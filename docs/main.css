@@ -176,7 +176,7 @@ select {
 }
 
 .fl,
-.nv {
+#nv {
   margin: 20px 0;
 }
 
@@ -290,7 +290,8 @@ img {
 }
 
 code,
-pre {
+pre,
+xmp {
   font-family: "Jetbrains" !important;
 }
 
