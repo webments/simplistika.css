@@ -9,19 +9,19 @@ found in the LICENSE file.
 :root {
   --orange: #ff4d0d;
   --orange-disabled: #ff4e0d20;
-  --blue: #094f91;
+  --blue: #0083FF;
   --blue-disabled: #094f9120;
   --light-blue: #29b6f6;
   --light-blue-disabled: #29b5f620;
-  --red: #b71c1c;
+  --red: #F92121;
   --red-disabled: #b71c1c20;
   --pink: #e91e63;
   --pink-disabled: #e91e6320;
-  --purple: #7b1fa2;
+  --purple: #BE2FFA;
   --purple-disabled: #7b1fa220;
-  --yellow: #ffa206;
+  --yellow: #FFA816;
   --yellow-disabled: #ffa20620;
-  --green: #8bc34a;
+  --green: #99F034;
   --green-disabled: #8bc34a20;
   --gradient: linear-gradient(45deg,
       rgba(255, 29, 17, 0.9),
