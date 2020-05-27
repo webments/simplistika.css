@@ -205,6 +205,6 @@ This framework is maintained under the [Semantic Versioning guidelines](https://
 
 ## <a name="license"></a>Copyright and License
 
-Code and documentation Copyright 2020 The Webments Maintainers and Contributors, Code released under the LGPL-2.1 (GNU Lesser General Public License v2.1) License.
+Code and documentation Copyright 2020 The Webments Maintainers and Contributors, Code released under the LGPL-3 (GNU Lesser General Public License v3) License.
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -470,14 +470,14 @@ input[type="checkbox"],
   display: inline-block;
 }
 
-.drp div {
+.drp .ls {
   display: none;
   position: absolute;
-  top: 0;
+  top: 60px;
   right: 10px;
   background-color: var(--dark3);
   border-color: var(--dark3);
-  border-radius: 8px;
+  border-radius: 2px 2px 8px 8px;
   width: 170px;
   z-index: 1;
 }
@@ -486,23 +486,22 @@ input[type="checkbox"],
   text-align: left;
 }
 
-.drp div a {
+.drp .ls a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   color: inherit;
 }
 
-.drp div a:hover {
+.drp .ls a:hover {
   background-color: var(--dark4);
-  border-radius: 8px;
+  border-radius: 2px;
   transition: .2s;
 }
 
-.drp:hover div {
+.drp:hover .ls {
   display: block;  
 }
-
 
 select,
 .slc {
@@ -549,7 +548,7 @@ select:hover,
 button:disabled,
 .button:disabled,
 .bt:disabled,
-button[disabled], 
+button[disabled],
 input[type="text"]:disabled,
 .inp-text:disabled,
 input[type="text"][disabled],
@@ -558,6 +557,10 @@ select[disabled],
   border-color: var(--dark2);
   color: var(--light2);
   pointer-events: none; !im
+}
+
+.bt:disabled ~ .ls{
+  display: none;
 }
 
 /*checkbox*/
@@ -681,6 +684,7 @@ select[disabled],
   border-radius: 50%;
   background: var(--orange);
 }
+
 /*menu*/
 
 .hm {
@@ -719,23 +723,24 @@ select[disabled],
 
 .logo {
   position: absolute;
-  height: 40px;
-  top: 0;
-  bottom: 0;
+  width: auto;
+  height: 80%;
+  top: 20%; 
+  display: inline-block;
+  text-align: center;
   margin: auto 0;
-  left: 20px;
   font-size: 30px;
 }
 
 #ls { 
-  display: flex; 
-  margin-left: 60px;
+  display: inline-flex; 
+  margin: 0 25%;
 }
 
 #ls a {
   width: auto;
   height: 100%;
-  padding: 20px 12px;
+  padding: 22px 12px;
   margin-top: auto;
   margin-bottom: auto;
   color: white;
@@ -750,14 +755,23 @@ select[disabled],
   transition: 0.2s;
 }
 
+#nv .inp-text ~ .ls {
+  margin-right: 20%;
+}
+
 #nv .inp-text {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  display: block;
   float: right;
+  height: 80%;
+  display: inline-block;
   border-color: white;
   border-radius: 12px;
-  width: auto;
-  max-width: 220px;
-  min-width: 10%;
-  margin-left: auto;
+  width: 15%;
+  margin-left: 10%;
   margin-right: 0;
   transition: width 0.2s ease-in-out;
   -webkit-transition: width 0.2s ease-in-out;
@@ -766,14 +780,20 @@ select[disabled],
 #nv .inp-text:hover:enabled,
 #nv .inp-text:focus:enabled {
   width: auto;
-  max-width: 400px;
-  min-width: 20%;
+  width: 25%;
   background: white;
   transition: 0.2s;
 }
 
-@media screen and (max-width: 768px){
- 
+@media screen and (max-width: 780px){
+
+  .logo {
+    position: absolute;
+    left: 10px;
+    height: 40px;
+    top: 20px;
+  }
+
   #nv label { 
     display: inline-block;
     color: white;
@@ -785,12 +805,11 @@ select[disabled],
     transition: 0.2s;
   }
 
-  #ls a, #ls .inp-text {
+  #ls a {
     box-sizing: border-box;
     display: block;
-    width: 100%;
-    text-align: left;
-    margin: 0;
+    width: 85%;
+    text-align: center;
   }
   
   #ls { 
@@ -804,13 +823,17 @@ select[disabled],
   }
 
   #nv .inp-text {
+    position: relative;
+    display: flex;
     float: none;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    margin-right: 20%;
+    width: 70%;
   }
 
   #nv .inp-text:hover:enabled,
   #nv .inp-text:focus:enabled {
-   width: 100%;
+   width: 90%;
   }
 }
 
