@@ -722,21 +722,25 @@ select[disabled],
 }
 
 .logo {
-  height: 40px;
-  display: inline-flex;
+  position: absolute;
+  width: auto;
+  height: 80%;
+  top: 20%; 
+  display: inline-block;
+  text-align: center;
   margin: auto 0;
   font-size: 30px;
 }
 
 #ls { 
   display: inline-flex; 
-  margin-left: 60px;
+  margin: 0 25%;
 }
 
 #ls a {
   width: auto;
   height: 100%;
-  padding: 20px 12px;
+  padding: 22px 12px;
   margin-top: auto;
   margin-bottom: auto;
   color: white;
@@ -766,7 +770,7 @@ select[disabled],
   display: inline-block;
   border-color: white;
   border-radius: 12px;
-  width: 20%;
+  width: 15%;
   margin-left: 10%;
   margin-right: 0;
   transition: width 0.2s ease-in-out;
@@ -776,7 +780,7 @@ select[disabled],
 #nv .inp-text:hover:enabled,
 #nv .inp-text:focus:enabled {
   width: auto;
-  width: 30%;
+  width: 25%;
   background: white;
   transition: 0.2s;
 }
